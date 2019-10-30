@@ -1,0 +1,9 @@
+{
+	"host" : "localhost",
+	"port" : "4000",
+	"db" : "mongodb://localhost:27017/stock_portfolio_tracking",
+	"jwt_expiretime" : "1h",
+	"jwt_secret" : "ThisIsMySecret",
+	"senderEmailID" : "piyush25032@gmail.com",
+	"sendgrid_api_key" : "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"
+}
