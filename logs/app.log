@@ -1415,3 +1415,19 @@
 {"message":"[usersSvc ]: User Piyu Kumar User Successfully deleted @@@","level":"info"}
 {"message":"[authMiddleware ]: TypeError: Cannot read property 'replace' of undefined","level":"error"}
 {"message":"[usersSvc ]: User Piyu Kumar User Successfully Updated @@@","level":"info"}
+{"message":"[Server]:  api server started on: 4000","level":"info"}
+{"message":"[Server]: Connection with MongoDB installed","level":"info"}
+{"message":"[Server]:  api server started on: 4000","level":"info"}
+{"message":"[Server]: Connection with MongoDB installed","level":"info"}
+{"message":"[Server]:  api server started on: 4000","level":"info"}
+{"message":"[Server]: Connection with MongoDB installed","level":"info"}
+{"message":"[usersSvc ]: User Created Successfully @@@","level":"info"}
+{"message":"[usersSvc ]: User Piyu Kumar login Successfully @@@","level":"info"}
+{"message":"User logined Succefully @@@","level":"info"}
+{"message":"[usersSvc ]: Error: Authentication failed","level":"error"}
+{"message":"[usersCntrl]: Authentication failed","level":"error"}
+{"message":"Get the User @@@","level":"info"}
+{"message":"[authMiddleware ]: TypeError: Cannot read property 'replace' of undefined","level":"error"}
+{"message":"[usersSvc ]: User Piyu Kumar User Successfully deleted @@@","level":"info"}
+{"message":"[authMiddleware ]: TypeError: Cannot read property 'replace' of undefined","level":"error"}
+{"message":"[usersSvc ]: User Piyu Kumar User Successfully Updated @@@","level":"info"}

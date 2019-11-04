@@ -45,7 +45,7 @@ test('Should create a New User', async () => {
                     "avgBuyPrice": 535.00,
                     "quantity": 10
                 }
-            ],
+            ], 
 
         })
         .expect(201)
