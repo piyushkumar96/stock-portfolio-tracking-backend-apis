@@ -26,9 +26,26 @@ test('Should create a New User', async () => {
         .post('/api/v1/createUser')
         .send({
             name: 'Piyush Kumar',
-            email: 'piyush1996@gmail.com',
-            password: 'Piyush@123',
-            location: 'Pune'
+            email: 'piyush25032@gmail.com',
+            password: 'Welcome@123',
+            age: 23,
+            portfolios : [
+                {
+                    "tickName": "TCS",
+                    "avgBuyPrice": 1633.45,
+                    "quantity": 4
+                },
+                {
+                    "tickName": "WIPRO",
+                    "avgBuyPrice": 319.25,
+                    "quantity": 7
+                },
+                {
+                    "tickName": "GODREJIND",
+                    "avgBuyPrice": 535.00,
+                    "quantity": 10
+                }
+            ],
 
         })
         .expect(201)
@@ -41,12 +58,12 @@ test('Should create a New User', async () => {
     expect(response.body.message).toMatchObject({
         user: {
             name: 'Piyush Kumar',
-            email: 'piyush1996@gmail.com'
+            email: 'piyush25032@gmail.com'
         },
         token: user.tokens[0].token
     })
 
-    expect(user.password).not.toBe('Piyush@123')
+    expect(user.password).not.toBe('Welcome@123')
 })
 
 // test for login Process
@@ -117,24 +134,10 @@ test('Should update valid user fields', async () => {
         .patch('/api/v1/updateUser')
         .set('Authorization', `Bearer ${userOne.tokens[0].token}`)
         .send({
-            location: 'Bengaluru'
+            age: 30
         })
         .expect(200)
     const user = await userModel.findById(userOneId)
-    expect(user.location).toEqual('Bengaluru')
-})
-
-// test for adding the new Order
-test('Should add a New Order', async () => {
-    const response = await request(server)
-        .post('/api/v1/addOrder')
-        .set('Authorization', `Bearer ${userOne.tokens[0].token}`)
-        .send({
-            orderName:"Vegetables",
-	        sellerId: "SEL1",
-	        sellerLoc:"Bengaluru, Karnataka"
-
-        })
-        .expect(200)
+    expect(user.age).toEqual(30)
 })
 
