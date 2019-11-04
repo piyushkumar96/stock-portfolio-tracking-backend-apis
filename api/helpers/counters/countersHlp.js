@@ -17,29 +17,29 @@ const counterSchema = require('../../models/counters/countersModel'),
 
 const loggerName = "[counterHelper ]: ";
 
-exports.counters =  (role, count) => {
+exports.counters = (role, count) => {
 
-return new Promise((resolve, reject) => {
-    try {
-        if (role == "tradeid") {
-            counterSchema.findByIdAndUpdate({ _id: 'tradeid' },
-                { $inc: { seq: parseInt(count) } },
-                {
-                    new: true,
-                    upsert: true // Make this update into an upsert
-                },
-                function (error, counter) {
-                    if (error)
-                        throw Error("Something happened wrong. Please try again");
-                    resolve ("TRD" + counter.seq);
-                });
-        }else{
+    return new Promise((resolve, reject) => {
+        try {
+            if (role == "tradeid") {
+                counterSchema.findByIdAndUpdate({ _id: 'tradeid' },
+                    { $inc: { seq: parseInt(count) } },
+                    {
+                        new: true,
+                        upsert: true // Make this update into an upsert
+                    },
+                    function (error, counter) {
+                        if (error)
+                            throw Error("Something happened wrong. Please try again");
+                        resolve("TRD" + counter.seq);
+                    });
+            } else {
 
-            reject("Invalid Counter type.")
+                reject("Invalid Counter type.")
+            }
+        } catch (err) {
+            logger.error(loggerName + err)
+            reject("Something happened wrong. Please try again")
         }
-    } catch (err) {
-        logger.error(loggerName + err)
-        reject("Something happened wrong. Please try again")
-    }
-})
+    })
 }

@@ -28,7 +28,6 @@ test('Should create a New User', async () => {
             name: 'Piyush Kumar',
             email: 'piyush1996@gmail.com',
             password: 'Piyush@123',
-            role: 'buyer',
             location: 'Pune'
 
         })

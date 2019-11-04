@@ -11,7 +11,7 @@
 
 //External Modules 
 const bcrypt = require('bcryptjs'),
-      uuidv4 = require('uuid/v4');
+    uuidv4 = require('uuid/v4');
 
 // Internal Modules
 const userSchema = require('../../models/users/usersModel'),
@@ -243,6 +243,30 @@ exports.deleteUser = function (data) {
             logger.error(loggerName + err);
             reject("Something failed, Please retry");
         }
+    });
+
+}
+
+
+/**
+ * get a Returns 
+ * 
+ * @returns {Promise}
+ */
+
+exports.getReturns = function (data) {
+
+
+    let sum = 0;
+
+    return new Promise(async (resolve, reject) => {
+
+        for (let i = 0; i < data.user.portfolios.length; i++) {
+            sum = sum + (100 - data.user.portfolios[i].avgBuyPrice) * data.user.portfolios[i].quantity
+        }
+
+        logger.info(loggerName + " The Return value is " + sum)
+        resolve("The Return value is " + sum)
     });
 
 }

@@ -11,39 +11,47 @@
 
 module.exports = function (app) {
 
-    const   usersController = require('../../controllers/users/usersCntrl'),
-            authentication = require('../../middleware/auth');
-    
-    // create user route
-    app.route('/api/v1/createUser')
-       .post(usersController.createUser)
+   const usersController = require('../../controllers/users/usersCntrl'),
+      authentication = require('../../middleware/auth');
 
-    // login user route
-    app.route('/api/v1/login')
-       .post(usersController.loginUser)
+   // create user route
+   app.route('/api/v1/createUser')
+      .post(usersController.createUser)
 
-    // get the user
-    app.route('/api/v1/user/me')
-       .get(authentication.auth, usersController.getUser)
+   // login user route
+   app.route('/api/v1/login')
+      .post(usersController.loginUser)
 
-    // logout current session of the user
-    app.route('/api/v1/logoutCS')
-       .patch(authentication.auth, usersController.logoutCS)
+   // get the user
+   app.route('/api/v1/user/me')
+      .get(authentication.auth, usersController.getUser)
 
-    // logout all sessions of the user
-    app.route('/api/v1/logoutAS')
-       .patch(authentication.auth, usersController.logoutAS)
-   
+   // logout current session of the user
+   app.route('/api/v1/logoutCS')
+      .patch(authentication.auth, usersController.logoutCS)
 
-    //update the user's profile
-    app.route('/api/v1/updateUser')
-       .patch(authentication.auth, usersController.updateUser)
-   
-    //update the user's password
-    app.route('/api/v1/updatePassword')
-       .patch(authentication.auth, usersController.updatePassword)
-   
+   // logout all sessions of the user
+   app.route('/api/v1/logoutAS')
+      .patch(authentication.auth, usersController.logoutAS)
+
+   //update the user's profile
+   app.route('/api/v1/updateUser')
+      .patch(authentication.auth, usersController.updateUser)
+
+   //update the user's password
+   app.route('/api/v1/updatePassword')
+      .patch(authentication.auth, usersController.updatePassword)
+
    //delete the user
    app.route('/api/v1/deleteUser')
-   .delete(authentication.auth, usersController.deleteUser)
+      .delete(authentication.auth, usersController.deleteUser)
+
+   // get holdings
+   app.route('/api/v1/getHoldings')
+      .get(authentication.auth, usersController.getHoldings)
+      
+   // get returns
+   app.route('/api/v1/getReturns')
+      .get(authentication.auth, usersController.getReturns)
+
 };

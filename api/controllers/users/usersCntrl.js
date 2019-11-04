@@ -10,17 +10,17 @@
 'use strict';
 
 // Internal Modules
-const   usersSvc = require('../../services/users/usersSvc'),
-        logger = require('../../../logger');
+const usersSvc = require('../../services/users/usersSvc'),
+    logger = require('../../../logger');
 
-const   loggerName = "[usersCntrl]: ";
+const loggerName = "[usersCntrl]: ";
 
 // function for creating a new user
 exports.createUser = async function (req, res) {
-    let  name = req.body.name,
-         email = req.body.email,
-         password = req.body.password,
-         portfolios = req.body.portfolios;
+    let name = req.body.name,
+        email = req.body.email,
+        password = req.body.password,
+        portfolios = req.body.portfolios;
 
     if (!name || !email || !password) {
         logger.error(loggerName + "Invalid Parameters while creating User !!!")
@@ -28,7 +28,7 @@ exports.createUser = async function (req, res) {
             success: false,
             message: 'Invalid parameters'
         });
-    }else {
+    } else {
 
         try {
             let result = await usersSvc.createUser(req.body);
@@ -36,10 +36,10 @@ exports.createUser = async function (req, res) {
                 success: true,
                 message: result
             });
-        } catch(err) {
+        } catch (err) {
             logger.error(loggerName + err)
             res.status(400).json({
-                success: false, 
+                success: false,
                 message: err
             });
         }
@@ -48,8 +48,8 @@ exports.createUser = async function (req, res) {
 
 // function for logging user
 exports.loginUser = async function (req, res) {
-    let  email = req.body.email,
-         password = req.body.password;
+    let email = req.body.email,
+        password = req.body.password;
 
     if (!email || !password) {
         logger.error(loggerName + "Invalid Parameters while logging User !!!")
@@ -57,7 +57,7 @@ exports.loginUser = async function (req, res) {
             success: false,
             message: 'Invalid parameters'
         });
-    }else {
+    } else {
 
         try {
             let result = await usersSvc.loginUser(req.body);
@@ -66,7 +66,7 @@ exports.loginUser = async function (req, res) {
                 success: true,
                 message: result
             });
-        } catch(err) {
+        } catch (err) {
             logger.error(loggerName + err)
             res.status(400).json({
                 success: false,
@@ -86,7 +86,7 @@ exports.getUser = async function (req, res) {
             success: true,
             message: result
         });
-    } catch(err) {
+    } catch (err) {
         logger.error(loggerName + err)
         res.status(400).json({
             success: false,
@@ -104,7 +104,7 @@ exports.logoutCS = async function (req, res) {
             success: true,
             message: result
         });
-    } catch(err) {
+    } catch (err) {
         logger.error(loggerName + err)
         res.status(500).json({
             success: false,
@@ -121,7 +121,7 @@ exports.logoutAS = async function (req, res) {
             success: true,
             message: result
         });
-    } catch(err) {
+    } catch (err) {
         logger.error(loggerName + err)
         res.status(500).json({
             success: false,
@@ -138,7 +138,7 @@ exports.updateUser = async function (req, res) {
             success: true,
             message: result
         });
-    } catch(err) {
+    } catch (err) {
         logger.error(loggerName + err)
         res.status(400).json({
             success: false,
@@ -149,30 +149,30 @@ exports.updateUser = async function (req, res) {
 
 // function for update the user's password
 exports.updatePassword = async function (req, res) {
-    
-    let  password = req.body.oldPassword,
-         newPassword = req.body.newPassword,
-         cfmPassword = req.body.cfmPassword;
+
+    let password = req.body.oldPassword,
+        newPassword = req.body.newPassword,
+        cfmPassword = req.body.cfmPassword;
 
     if (!password || !newPassword || !cfmPassword) {
         res.status(400).json({
             success: false,
             message: 'Missing parameters!!!'
         });
-    }else if(newPassword !== cfmPassword){
+    } else if (newPassword !== cfmPassword) {
         res.status(400).json({
             success: false,
             message: 'Password did not Match!!!'
         });
-    }else{
-    
+    } else {
+
         try {
             let result = await usersSvc.updatePassword(req);
             res.status(200).json({
                 success: true,
                 message: result
             });
-        } catch(err) {
+        } catch (err) {
             logger.error(loggerName + err)
             res.status(400).json({
                 success: false,
@@ -191,9 +191,55 @@ exports.deleteUser = async function (req, res) {
             success: true,
             message: result
         });
-    } catch(err) {
+    } catch (err) {
         logger.error(loggerName + err)
         res.status(500).json({
+            success: false,
+            message: err
+        });
+    }
+}
+
+// function for getting Holding means all Portfolios
+exports.getHoldings = async function (req, res) {
+
+    try {
+        let portfolios = req.user.portfolios
+        if (portfolios.length === 0)
+            var result = "No Portfolios"
+        else
+            var result = portfolios
+
+        res.status(200).json({
+            success: true,
+            message: result
+        });
+    } catch (err) {
+        logger.error(loggerName + err)
+        res.status(400).json({
+            success: false,
+            message: err
+        });
+    }
+}
+
+// function for getting returns 
+exports.getReturns = async function (req, res) {
+
+    try {
+        let portfolios = req.user.portfolios
+        if (portfolios.length === 0)
+            var result = "No Portfolios, So no returns"
+        else
+            var result = await usersSvc.getReturns(req);
+
+        res.status(200).json({
+            success: true,
+            message: result
+        });
+    } catch (err) {
+        logger.error(loggerName + err)
+        res.status(400).json({
             success: false,
             message: err
         });

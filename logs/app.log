@@ -684,3 +684,658 @@
 {"message":"Get the User @@@","level":"info"}
 {"message":"[Server]:  api server started on: 4000","level":"info"}
 {"message":"[Server]: Connection with MongoDB installed","level":"info"}
+{"message":"[Server]:  api server started on: 4000","level":"info"}
+{"error":{"code":"EADDRINUSE","errno":"EADDRINUSE","syscall":"listen","address":"::","port":4000},"level":"error","message":"uncaughtException: listen EADDRINUSE :::4000\nError: listen EADDRINUSE :::4000\n    at Object._errnoException (util.js:992:11)\n    at _exceptionWithHostPort (util.js:1014:20)\n    at Server.setupListenHandle [as _listen2] (net.js:1355:14)\n    at listenInCluster (net.js:1396:12)\n    at Server.listen (net.js:1480:7)\n    at Function.listen (/Users/pk53126/Desktop/git folders/smallcase-assignment/stock-portfolio-tracking-backend-apis/node_modules/express/lib/application.js:618:24)\n    at Object.<anonymous> (/Users/pk53126/Desktop/git folders/smallcase-assignment/stock-portfolio-tracking-backend-apis/server.js:80:5)\n    at Module._compile (module.js:652:30)\n    at Object.Module._extensions..js (module.js:663:10)\n    at Module.load (module.js:565:32)\n    at tryModuleLoad (module.js:505:12)\n    at Function.Module._load (module.js:497:3)\n    at Function.Module.runMain (module.js:693:10)\n    at startup (bootstrap_node.js:191:16)\n    at bootstrap_node.js:612:3","stack":"Error: listen EADDRINUSE :::4000\n    at Object._errnoException (util.js:992:11)\n    at _exceptionWithHostPort (util.js:1014:20)\n    at Server.setupListenHandle [as _listen2] (net.js:1355:14)\n    at listenInCluster (net.js:1396:12)\n    at Server.listen (net.js:1480:7)\n    at Function.listen (/Users/pk53126/Desktop/git folders/smallcase-assignment/stock-portfolio-tracking-backend-apis/node_modules/express/lib/application.js:618:24)\n    at Object.<anonymous> (/Users/pk53126/Desktop/git folders/smallcase-assignment/stock-portfolio-tracking-backend-apis/server.js:80:5)\n    at Module._compile (module.js:652:30)\n    at Object.Module._extensions..js (module.js:663:10)\n    at Module.load (module.js:565:32)\n    at tryModuleLoad (module.js:505:12)\n    at Function.Module._load (module.js:497:3)\n    at Function.Module.runMain (module.js:693:10)\n    at startup (bootstrap_node.js:191:16)\n    at bootstrap_node.js:612:3","exception":true,"date":"Wed Oct 30 2019 20:05:52 GMT+0530 (IST)","process":{"pid":45610,"uid":504,"gid":20,"cwd":"/Users/pk53126/Desktop/git folders/smallcase-assignment/stock-portfolio-tracking-backend-apis","execPath":"/usr/local/bin/node","version":"v8.11.3","argv":["/usr/local/bin/node","/Users/pk53126/Desktop/git folders/smallcase-assignment/stock-portfolio-tracking-backend-apis/server.js"],"memoryUsage":{"rss":58941440,"heapTotal":54870016,"heapUsed":26871592,"external":19144833}},"os":{"loadavg":[4.6181640625,3.17138671875,2.96826171875],"uptime":1034256},"trace":[{"column":11,"file":"util.js","function":"Object._errnoException","line":992,"method":"_errnoException","native":false},{"column":20,"file":"util.js","function":"_exceptionWithHostPort","line":1014,"method":null,"native":false},{"column":14,"file":"net.js","function":"Server.setupListenHandle [as _listen2]","line":1355,"method":"setupListenHandle [as _listen2]","native":false},{"column":12,"file":"net.js","function":"listenInCluster","line":1396,"method":null,"native":false},{"column":7,"file":"net.js","function":"Server.listen","line":1480,"method":"listen","native":false},{"column":24,"file":"/Users/pk53126/Desktop/git folders/smallcase-assignment/stock-portfolio-tracking-backend-apis/node_modules/express/lib/application.js","function":"Function.listen","line":618,"method":"listen","native":false},{"column":5,"file":"/Users/pk53126/Desktop/git folders/smallcase-assignment/stock-portfolio-tracking-backend-apis/server.js","function":null,"line":80,"method":null,"native":false},{"column":30,"file":"module.js","function":"Module._compile","line":652,"method":"_compile","native":false},{"column":10,"file":"module.js","function":"Module._extensions..js","line":663,"method":".js","native":false},{"column":32,"file":"module.js","function":"Module.load","line":565,"method":"load","native":false},{"column":12,"file":"module.js","function":"tryModuleLoad","line":505,"method":null,"native":false},{"column":3,"file":"module.js","function":"Module._load","line":497,"method":"_load","native":false},{"column":10,"file":"module.js","function":"Module.runMain","line":693,"method":"runMain","native":false},{"column":16,"file":"bootstrap_node.js","function":"startup","line":191,"method":null,"native":false},{"column":3,"file":"bootstrap_node.js","function":null,"line":612,"method":null,"native":false}]}
+{"message":"[Server]:  api server started on: 4000","level":"info"}
+{"message":"[Server]: Connection with MongoDB installed","level":"info"}
+{"message":"[Server]:  api server started on: 4000","level":"info"}
+{"message":"[Server]: Connection with MongoDB installed","level":"info"}
+{"message":"[Server]:  api server started on: 4000","level":"info"}
+{"message":"[Server]: Connection with MongoDB installed","level":"info"}
+{"message":"[Server]:  api server started on: 4000","level":"info"}
+{"message":"[Server]: Connection with MongoDB installed","level":"info"}
+{"message":"[Server]:  api server started on: 4000","level":"info"}
+{"message":"[Server]: Connection with MongoDB installed","level":"info"}
+{"message":"[Server]:  api server started on: 4000","level":"info"}
+{"message":"[Server]: Connection with MongoDB installed","level":"info"}
+{"message":"[Server]:  api server started on: 4000","level":"info"}
+{"message":"[Server]: Connection with MongoDB installed","level":"info"}
+{"message":"[Server]:  api server started on: 4000","level":"info"}
+{"message":"[Server]: Connection with MongoDB installed","level":"info"}
+{"error":{},"level":"error","message":"uncaughtException: Route.get() requires a callback function but got a [object Undefined]\nError: Route.get() requires a callback function but got a [object Undefined]\n    at Route.(anonymous function) [as get] (/Users/pk53126/Desktop/git folders/smallcase-assignment/stock-portfolio-tracking-backend-apis/node_modules/express/lib/router/route.js:202:15)\n    at module.exports (/Users/pk53126/Desktop/git folders/smallcase-assignment/stock-portfolio-tracking-backend-apis/api/routes/users/usersRoute.js:52:8)\n    at Object.<anonymous> (/Users/pk53126/Desktop/git folders/smallcase-assignment/stock-portfolio-tracking-backend-apis/server.js:71:1)\n    at Module._compile (module.js:652:30)\n    at Object.Module._extensions..js (module.js:663:10)\n    at Module.load (module.js:565:32)\n    at tryModuleLoad (module.js:505:12)\n    at Function.Module._load (module.js:497:3)\n    at Function.Module.runMain (module.js:693:10)\n    at startup (bootstrap_node.js:191:16)\n    at bootstrap_node.js:612:3","stack":"Error: Route.get() requires a callback function but got a [object Undefined]\n    at Route.(anonymous function) [as get] (/Users/pk53126/Desktop/git folders/smallcase-assignment/stock-portfolio-tracking-backend-apis/node_modules/express/lib/router/route.js:202:15)\n    at module.exports (/Users/pk53126/Desktop/git folders/smallcase-assignment/stock-portfolio-tracking-backend-apis/api/routes/users/usersRoute.js:52:8)\n    at Object.<anonymous> (/Users/pk53126/Desktop/git folders/smallcase-assignment/stock-portfolio-tracking-backend-apis/server.js:71:1)\n    at Module._compile (module.js:652:30)\n    at Object.Module._extensions..js (module.js:663:10)\n    at Module.load (module.js:565:32)\n    at tryModuleLoad (module.js:505:12)\n    at Function.Module._load (module.js:497:3)\n    at Function.Module.runMain (module.js:693:10)\n    at startup (bootstrap_node.js:191:16)\n    at bootstrap_node.js:612:3","exception":true,"date":"Wed Oct 30 2019 20:22:44 GMT+0530 (IST)","process":{"pid":45934,"uid":504,"gid":20,"cwd":"/Users/pk53126/Desktop/git folders/smallcase-assignment/stock-portfolio-tracking-backend-apis","execPath":"/usr/local/bin/node","version":"v8.11.3","argv":["/usr/local/bin/node","/Users/pk53126/Desktop/git folders/smallcase-assignment/stock-portfolio-tracking-backend-apis/server.js"],"memoryUsage":{"rss":58851328,"heapTotal":54870016,"heapUsed":27888312,"external":19115249}},"os":{"loadavg":[2.38818359375,2.58056640625,2.84375],"uptime":1035268},"trace":[{"column":15,"file":"/Users/pk53126/Desktop/git folders/smallcase-assignment/stock-portfolio-tracking-backend-apis/node_modules/express/lib/router/route.js","function":"Route.(anonymous function) [as get]","line":202,"method":"(anonymous function) [as get]","native":false},{"column":8,"file":"/Users/pk53126/Desktop/git folders/smallcase-assignment/stock-portfolio-tracking-backend-apis/api/routes/users/usersRoute.js","function":"module.exports","line":52,"method":"exports","native":false},{"column":1,"file":"/Users/pk53126/Desktop/git folders/smallcase-assignment/stock-portfolio-tracking-backend-apis/server.js","function":null,"line":71,"method":null,"native":false},{"column":30,"file":"module.js","function":"Module._compile","line":652,"method":"_compile","native":false},{"column":10,"file":"module.js","function":"Module._extensions..js","line":663,"method":".js","native":false},{"column":32,"file":"module.js","function":"Module.load","line":565,"method":"load","native":false},{"column":12,"file":"module.js","function":"tryModuleLoad","line":505,"method":null,"native":false},{"column":3,"file":"module.js","function":"Module._load","line":497,"method":"_load","native":false},{"column":10,"file":"module.js","function":"Module.runMain","line":693,"method":"runMain","native":false},{"column":16,"file":"bootstrap_node.js","function":"startup","line":191,"method":null,"native":false},{"column":3,"file":"bootstrap_node.js","function":null,"line":612,"method":null,"native":false}]}
+{"error":{},"level":"error","message":"uncaughtException: Route.get() requires a callback function but got a [object Undefined]\nError: Route.get() requires a callback function but got a [object Undefined]\n    at Route.(anonymous function) [as get] (/Users/pk53126/Desktop/git folders/smallcase-assignment/stock-portfolio-tracking-backend-apis/node_modules/express/lib/router/route.js:202:15)\n    at module.exports (/Users/pk53126/Desktop/git folders/smallcase-assignment/stock-portfolio-tracking-backend-apis/api/routes/users/usersRoute.js:52:8)\n    at Object.<anonymous> (/Users/pk53126/Desktop/git folders/smallcase-assignment/stock-portfolio-tracking-backend-apis/server.js:71:1)\n    at Module._compile (module.js:652:30)\n    at Object.Module._extensions..js (module.js:663:10)\n    at Module.load (module.js:565:32)\n    at tryModuleLoad (module.js:505:12)\n    at Function.Module._load (module.js:497:3)\n    at Function.Module.runMain (module.js:693:10)\n    at startup (bootstrap_node.js:191:16)\n    at bootstrap_node.js:612:3","stack":"Error: Route.get() requires a callback function but got a [object Undefined]\n    at Route.(anonymous function) [as get] (/Users/pk53126/Desktop/git folders/smallcase-assignment/stock-portfolio-tracking-backend-apis/node_modules/express/lib/router/route.js:202:15)\n    at module.exports (/Users/pk53126/Desktop/git folders/smallcase-assignment/stock-portfolio-tracking-backend-apis/api/routes/users/usersRoute.js:52:8)\n    at Object.<anonymous> (/Users/pk53126/Desktop/git folders/smallcase-assignment/stock-portfolio-tracking-backend-apis/server.js:71:1)\n    at Module._compile (module.js:652:30)\n    at Object.Module._extensions..js (module.js:663:10)\n    at Module.load (module.js:565:32)\n    at tryModuleLoad (module.js:505:12)\n    at Function.Module._load (module.js:497:3)\n    at Function.Module.runMain (module.js:693:10)\n    at startup (bootstrap_node.js:191:16)\n    at bootstrap_node.js:612:3","exception":true,"date":"Wed Oct 30 2019 20:22:48 GMT+0530 (IST)","process":{"pid":45943,"uid":504,"gid":20,"cwd":"/Users/pk53126/Desktop/git folders/smallcase-assignment/stock-portfolio-tracking-backend-apis","execPath":"/usr/local/bin/node","version":"v8.11.3","argv":["/usr/local/bin/node","/Users/pk53126/Desktop/git folders/smallcase-assignment/stock-portfolio-tracking-backend-apis/server.js"],"memoryUsage":{"rss":60923904,"heapTotal":58028032,"heapUsed":23951760,"external":18457053}},"os":{"loadavg":[2.27685546875,2.55419921875,2.83251953125],"uptime":1035272},"trace":[{"column":15,"file":"/Users/pk53126/Desktop/git folders/smallcase-assignment/stock-portfolio-tracking-backend-apis/node_modules/express/lib/router/route.js","function":"Route.(anonymous function) [as get]","line":202,"method":"(anonymous function) [as get]","native":false},{"column":8,"file":"/Users/pk53126/Desktop/git folders/smallcase-assignment/stock-portfolio-tracking-backend-apis/api/routes/users/usersRoute.js","function":"module.exports","line":52,"method":"exports","native":false},{"column":1,"file":"/Users/pk53126/Desktop/git folders/smallcase-assignment/stock-portfolio-tracking-backend-apis/server.js","function":null,"line":71,"method":null,"native":false},{"column":30,"file":"module.js","function":"Module._compile","line":652,"method":"_compile","native":false},{"column":10,"file":"module.js","function":"Module._extensions..js","line":663,"method":".js","native":false},{"column":32,"file":"module.js","function":"Module.load","line":565,"method":"load","native":false},{"column":12,"file":"module.js","function":"tryModuleLoad","line":505,"method":null,"native":false},{"column":3,"file":"module.js","function":"Module._load","line":497,"method":"_load","native":false},{"column":10,"file":"module.js","function":"Module.runMain","line":693,"method":"runMain","native":false},{"column":16,"file":"bootstrap_node.js","function":"startup","line":191,"method":null,"native":false},{"column":3,"file":"bootstrap_node.js","function":null,"line":612,"method":null,"native":false}]}
+{"message":"[Server]:  api server started on: 4000","level":"info"}
+{"message":"[Server]: Connection with MongoDB installed","level":"info"}
+{"message":"[Server]:  api server started on: 4000","level":"info"}
+{"message":"[Server]: Connection with MongoDB installed","level":"info"}
+{"message":"[Server]:  api server started on: 4000","level":"info"}
+{"message":"[Server]: Connection with MongoDB installed","level":"info"}
+{"message":"[Server]:  api server started on: 4000","level":"info"}
+{"message":"[Server]: Connection with MongoDB installed","level":"info"}
+{"message":"[Server]:  api server started on: 4000","level":"info"}
+{"message":"[Server]: Connection with MongoDB installed","level":"info"}
+{"error":{},"level":"error","message":"uncaughtException: Route.get() requires a callback function but got a [object Undefined]\nError: Route.get() requires a callback function but got a [object Undefined]\n    at Route.(anonymous function) [as get] (/Users/pk53126/Desktop/git folders/smallcase-assignment/stock-portfolio-tracking-backend-apis/node_modules/express/lib/router/route.js:202:15)\n    at module.exports (/Users/pk53126/Desktop/git folders/smallcase-assignment/stock-portfolio-tracking-backend-apis/api/routes/trades/tradesRoute.js:39:8)\n    at Object.<anonymous> (/Users/pk53126/Desktop/git folders/smallcase-assignment/stock-portfolio-tracking-backend-apis/server.js:72:1)\n    at Module._compile (module.js:652:30)\n    at Object.Module._extensions..js (module.js:663:10)\n    at Module.load (module.js:565:32)\n    at tryModuleLoad (module.js:505:12)\n    at Function.Module._load (module.js:497:3)\n    at Function.Module.runMain (module.js:693:10)\n    at startup (bootstrap_node.js:191:16)\n    at bootstrap_node.js:612:3","stack":"Error: Route.get() requires a callback function but got a [object Undefined]\n    at Route.(anonymous function) [as get] (/Users/pk53126/Desktop/git folders/smallcase-assignment/stock-portfolio-tracking-backend-apis/node_modules/express/lib/router/route.js:202:15)\n    at module.exports (/Users/pk53126/Desktop/git folders/smallcase-assignment/stock-portfolio-tracking-backend-apis/api/routes/trades/tradesRoute.js:39:8)\n    at Object.<anonymous> (/Users/pk53126/Desktop/git folders/smallcase-assignment/stock-portfolio-tracking-backend-apis/server.js:72:1)\n    at Module._compile (module.js:652:30)\n    at Object.Module._extensions..js (module.js:663:10)\n    at Module.load (module.js:565:32)\n    at tryModuleLoad (module.js:505:12)\n    at Function.Module._load (module.js:497:3)\n    at Function.Module.runMain (module.js:693:10)\n    at startup (bootstrap_node.js:191:16)\n    at bootstrap_node.js:612:3","exception":true,"date":"Wed Oct 30 2019 20:24:24 GMT+0530 (IST)","process":{"pid":46010,"uid":504,"gid":20,"cwd":"/Users/pk53126/Desktop/git folders/smallcase-assignment/stock-portfolio-tracking-backend-apis","execPath":"/usr/local/bin/node","version":"v8.11.3","argv":["/usr/local/bin/node","/Users/pk53126/Desktop/git folders/smallcase-assignment/stock-portfolio-tracking-backend-apis/server.js"],"memoryUsage":{"rss":59875328,"heapTotal":58028032,"heapUsed":23058544,"external":18504560}},"os":{"loadavg":[2.6162109375,2.5654296875,2.80419921875],"uptime":1035368},"trace":[{"column":15,"file":"/Users/pk53126/Desktop/git folders/smallcase-assignment/stock-portfolio-tracking-backend-apis/node_modules/express/lib/router/route.js","function":"Route.(anonymous function) [as get]","line":202,"method":"(anonymous function) [as get]","native":false},{"column":8,"file":"/Users/pk53126/Desktop/git folders/smallcase-assignment/stock-portfolio-tracking-backend-apis/api/routes/trades/tradesRoute.js","function":"module.exports","line":39,"method":"exports","native":false},{"column":1,"file":"/Users/pk53126/Desktop/git folders/smallcase-assignment/stock-portfolio-tracking-backend-apis/server.js","function":null,"line":72,"method":null,"native":false},{"column":30,"file":"module.js","function":"Module._compile","line":652,"method":"_compile","native":false},{"column":10,"file":"module.js","function":"Module._extensions..js","line":663,"method":".js","native":false},{"column":32,"file":"module.js","function":"Module.load","line":565,"method":"load","native":false},{"column":12,"file":"module.js","function":"tryModuleLoad","line":505,"method":null,"native":false},{"column":3,"file":"module.js","function":"Module._load","line":497,"method":"_load","native":false},{"column":10,"file":"module.js","function":"Module.runMain","line":693,"method":"runMain","native":false},{"column":16,"file":"bootstrap_node.js","function":"startup","line":191,"method":null,"native":false},{"column":3,"file":"bootstrap_node.js","function":null,"line":612,"method":null,"native":false}]}
+{"message":"[Server]:  api server started on: 4000","level":"info"}
+{"message":"[Server]: Connection with MongoDB installed","level":"info"}
+{"message":"[Server]:  api server started on: 4000","level":"info"}
+{"message":"[Server]: Connection with MongoDB installed","level":"info"}
+{"message":"[Server]:  api server started on: 4000","level":"info"}
+{"message":"[Server]: Connection with MongoDB installed","level":"info"}
+{"message":"[Server]:  api server started on: 4000","level":"info"}
+{"message":"[Server]: Connection with MongoDB installed","level":"info"}
+{"message":"[Server]:  api server started on: 4000","level":"info"}
+{"message":"[Server]: Connection with MongoDB installed","level":"info"}
+{"message":"[Server]:  api server started on: 4000","level":"info"}
+{"message":"[Server]: Connection with MongoDB installed","level":"info"}
+{"message":"[Server]:  api server started on: 4000","level":"info"}
+{"message":"[Server]: Connection with MongoDB installed","level":"info"}
+{"error":{},"level":"error","message":"uncaughtException: Route.get() requires a callback function but got a [object Undefined]\nError: Route.get() requires a callback function but got a [object Undefined]\n    at Route.(anonymous function) [as get] (/Users/pk53126/Desktop/git folders/smallcase-assignment/stock-portfolio-tracking-backend-apis/node_modules/express/lib/router/route.js:202:15)\n    at module.exports (/Users/pk53126/Desktop/git folders/smallcase-assignment/stock-portfolio-tracking-backend-apis/api/routes/trades/tradesRoute.js:43:8)\n    at Object.<anonymous> (/Users/pk53126/Desktop/git folders/smallcase-assignment/stock-portfolio-tracking-backend-apis/server.js:72:1)\n    at Module._compile (module.js:652:30)\n    at Object.Module._extensions..js (module.js:663:10)\n    at Module.load (module.js:565:32)\n    at tryModuleLoad (module.js:505:12)\n    at Function.Module._load (module.js:497:3)\n    at Function.Module.runMain (module.js:693:10)\n    at startup (bootstrap_node.js:191:16)\n    at bootstrap_node.js:612:3","stack":"Error: Route.get() requires a callback function but got a [object Undefined]\n    at Route.(anonymous function) [as get] (/Users/pk53126/Desktop/git folders/smallcase-assignment/stock-portfolio-tracking-backend-apis/node_modules/express/lib/router/route.js:202:15)\n    at module.exports (/Users/pk53126/Desktop/git folders/smallcase-assignment/stock-portfolio-tracking-backend-apis/api/routes/trades/tradesRoute.js:43:8)\n    at Object.<anonymous> (/Users/pk53126/Desktop/git folders/smallcase-assignment/stock-portfolio-tracking-backend-apis/server.js:72:1)\n    at Module._compile (module.js:652:30)\n    at Object.Module._extensions..js (module.js:663:10)\n    at Module.load (module.js:565:32)\n    at tryModuleLoad (module.js:505:12)\n    at Function.Module._load (module.js:497:3)\n    at Function.Module.runMain (module.js:693:10)\n    at startup (bootstrap_node.js:191:16)\n    at bootstrap_node.js:612:3","exception":true,"date":"Wed Oct 30 2019 20:31:29 GMT+0530 (IST)","process":{"pid":46081,"uid":504,"gid":20,"cwd":"/Users/pk53126/Desktop/git folders/smallcase-assignment/stock-portfolio-tracking-backend-apis","execPath":"/usr/local/bin/node","version":"v8.11.3","argv":["/usr/local/bin/node","/Users/pk53126/Desktop/git folders/smallcase-assignment/stock-portfolio-tracking-backend-apis/server.js"],"memoryUsage":{"rss":58626048,"heapTotal":54870016,"heapUsed":27405632,"external":19146643}},"os":{"loadavg":[3.31884765625,2.90087890625,2.86474609375],"uptime":1035793},"trace":[{"column":15,"file":"/Users/pk53126/Desktop/git folders/smallcase-assignment/stock-portfolio-tracking-backend-apis/node_modules/express/lib/router/route.js","function":"Route.(anonymous function) [as get]","line":202,"method":"(anonymous function) [as get]","native":false},{"column":8,"file":"/Users/pk53126/Desktop/git folders/smallcase-assignment/stock-portfolio-tracking-backend-apis/api/routes/trades/tradesRoute.js","function":"module.exports","line":43,"method":"exports","native":false},{"column":1,"file":"/Users/pk53126/Desktop/git folders/smallcase-assignment/stock-portfolio-tracking-backend-apis/server.js","function":null,"line":72,"method":null,"native":false},{"column":30,"file":"module.js","function":"Module._compile","line":652,"method":"_compile","native":false},{"column":10,"file":"module.js","function":"Module._extensions..js","line":663,"method":".js","native":false},{"column":32,"file":"module.js","function":"Module.load","line":565,"method":"load","native":false},{"column":12,"file":"module.js","function":"tryModuleLoad","line":505,"method":null,"native":false},{"column":3,"file":"module.js","function":"Module._load","line":497,"method":"_load","native":false},{"column":10,"file":"module.js","function":"Module.runMain","line":693,"method":"runMain","native":false},{"column":16,"file":"bootstrap_node.js","function":"startup","line":191,"method":null,"native":false},{"column":3,"file":"bootstrap_node.js","function":null,"line":612,"method":null,"native":false}]}
+{"error":{},"level":"error","message":"uncaughtException: Route.get() requires a callback function but got a [object Undefined]\nError: Route.get() requires a callback function but got a [object Undefined]\n    at Route.(anonymous function) [as get] (/Users/pk53126/Desktop/git folders/smallcase-assignment/stock-portfolio-tracking-backend-apis/node_modules/express/lib/router/route.js:202:15)\n    at module.exports (/Users/pk53126/Desktop/git folders/smallcase-assignment/stock-portfolio-tracking-backend-apis/api/routes/trades/tradesRoute.js:43:8)\n    at Object.<anonymous> (/Users/pk53126/Desktop/git folders/smallcase-assignment/stock-portfolio-tracking-backend-apis/server.js:72:1)\n    at Module._compile (module.js:652:30)\n    at Object.Module._extensions..js (module.js:663:10)\n    at Module.load (module.js:565:32)\n    at tryModuleLoad (module.js:505:12)\n    at Function.Module._load (module.js:497:3)\n    at Function.Module.runMain (module.js:693:10)\n    at startup (bootstrap_node.js:191:16)\n    at bootstrap_node.js:612:3","stack":"Error: Route.get() requires a callback function but got a [object Undefined]\n    at Route.(anonymous function) [as get] (/Users/pk53126/Desktop/git folders/smallcase-assignment/stock-portfolio-tracking-backend-apis/node_modules/express/lib/router/route.js:202:15)\n    at module.exports (/Users/pk53126/Desktop/git folders/smallcase-assignment/stock-portfolio-tracking-backend-apis/api/routes/trades/tradesRoute.js:43:8)\n    at Object.<anonymous> (/Users/pk53126/Desktop/git folders/smallcase-assignment/stock-portfolio-tracking-backend-apis/server.js:72:1)\n    at Module._compile (module.js:652:30)\n    at Object.Module._extensions..js (module.js:663:10)\n    at Module.load (module.js:565:32)\n    at tryModuleLoad (module.js:505:12)\n    at Function.Module._load (module.js:497:3)\n    at Function.Module.runMain (module.js:693:10)\n    at startup (bootstrap_node.js:191:16)\n    at bootstrap_node.js:612:3","exception":true,"date":"Wed Oct 30 2019 20:32:01 GMT+0530 (IST)","process":{"pid":46087,"uid":504,"gid":20,"cwd":"/Users/pk53126/Desktop/git folders/smallcase-assignment/stock-portfolio-tracking-backend-apis","execPath":"/usr/local/bin/node","version":"v8.11.3","argv":["/usr/local/bin/node","/Users/pk53126/Desktop/git folders/smallcase-assignment/stock-portfolio-tracking-backend-apis/server.js"],"memoryUsage":{"rss":59555840,"heapTotal":54870016,"heapUsed":26821760,"external":19098543}},"os":{"loadavg":[2.86962890625,2.84228515625,2.84423828125],"uptime":1035825},"trace":[{"column":15,"file":"/Users/pk53126/Desktop/git folders/smallcase-assignment/stock-portfolio-tracking-backend-apis/node_modules/express/lib/router/route.js","function":"Route.(anonymous function) [as get]","line":202,"method":"(anonymous function) [as get]","native":false},{"column":8,"file":"/Users/pk53126/Desktop/git folders/smallcase-assignment/stock-portfolio-tracking-backend-apis/api/routes/trades/tradesRoute.js","function":"module.exports","line":43,"method":"exports","native":false},{"column":1,"file":"/Users/pk53126/Desktop/git folders/smallcase-assignment/stock-portfolio-tracking-backend-apis/server.js","function":null,"line":72,"method":null,"native":false},{"column":30,"file":"module.js","function":"Module._compile","line":652,"method":"_compile","native":false},{"column":10,"file":"module.js","function":"Module._extensions..js","line":663,"method":".js","native":false},{"column":32,"file":"module.js","function":"Module.load","line":565,"method":"load","native":false},{"column":12,"file":"module.js","function":"tryModuleLoad","line":505,"method":null,"native":false},{"column":3,"file":"module.js","function":"Module._load","line":497,"method":"_load","native":false},{"column":10,"file":"module.js","function":"Module.runMain","line":693,"method":"runMain","native":false},{"column":16,"file":"bootstrap_node.js","function":"startup","line":191,"method":null,"native":false},{"column":3,"file":"bootstrap_node.js","function":null,"line":612,"method":null,"native":false}]}
+{"message":"[Server]:  api server started on: 4000","level":"info"}
+{"message":"[Server]: Connection with MongoDB installed","level":"info"}
+{"message":"[Server]:  api server started on: 4000","level":"info"}
+{"message":"[Server]: Connection with MongoDB installed","level":"info"}
+{"message":"[Server]:  api server started on: 4000","level":"info"}
+{"message":"[Server]: Connection with MongoDB installed","level":"info"}
+{"error":{},"level":"error","message":"uncaughtException: Route.get() requires a callback function but got a [object Undefined]\nError: Route.get() requires a callback function but got a [object Undefined]\n    at Route.(anonymous function) [as get] (/Users/pk53126/Desktop/git folders/smallcase-assignment/stock-portfolio-tracking-backend-apis/node_modules/express/lib/router/route.js:202:15)\n    at module.exports (/Users/pk53126/Desktop/git folders/smallcase-assignment/stock-portfolio-tracking-backend-apis/api/routes/trades/tradesRoute.js:43:8)\n    at Object.<anonymous> (/Users/pk53126/Desktop/git folders/smallcase-assignment/stock-portfolio-tracking-backend-apis/server.js:72:1)\n    at Module._compile (module.js:652:30)\n    at Object.Module._extensions..js (module.js:663:10)\n    at Module.load (module.js:565:32)\n    at tryModuleLoad (module.js:505:12)\n    at Function.Module._load (module.js:497:3)\n    at Function.Module.runMain (module.js:693:10)\n    at startup (bootstrap_node.js:191:16)\n    at bootstrap_node.js:612:3","stack":"Error: Route.get() requires a callback function but got a [object Undefined]\n    at Route.(anonymous function) [as get] (/Users/pk53126/Desktop/git folders/smallcase-assignment/stock-portfolio-tracking-backend-apis/node_modules/express/lib/router/route.js:202:15)\n    at module.exports (/Users/pk53126/Desktop/git folders/smallcase-assignment/stock-portfolio-tracking-backend-apis/api/routes/trades/tradesRoute.js:43:8)\n    at Object.<anonymous> (/Users/pk53126/Desktop/git folders/smallcase-assignment/stock-portfolio-tracking-backend-apis/server.js:72:1)\n    at Module._compile (module.js:652:30)\n    at Object.Module._extensions..js (module.js:663:10)\n    at Module.load (module.js:565:32)\n    at tryModuleLoad (module.js:505:12)\n    at Function.Module._load (module.js:497:3)\n    at Function.Module.runMain (module.js:693:10)\n    at startup (bootstrap_node.js:191:16)\n    at bootstrap_node.js:612:3","exception":true,"date":"Wed Oct 30 2019 20:35:08 GMT+0530 (IST)","process":{"pid":46128,"uid":504,"gid":20,"cwd":"/Users/pk53126/Desktop/git folders/smallcase-assignment/stock-portfolio-tracking-backend-apis","execPath":"/usr/local/bin/node","version":"v8.11.3","argv":["/usr/local/bin/node","/Users/pk53126/Desktop/git folders/smallcase-assignment/stock-portfolio-tracking-backend-apis/server.js"],"memoryUsage":{"rss":60133376,"heapTotal":57503744,"heapUsed":23966432,"external":18562090}},"os":{"loadavg":[2.77880859375,2.8046875,2.82421875],"uptime":1036012},"trace":[{"column":15,"file":"/Users/pk53126/Desktop/git folders/smallcase-assignment/stock-portfolio-tracking-backend-apis/node_modules/express/lib/router/route.js","function":"Route.(anonymous function) [as get]","line":202,"method":"(anonymous function) [as get]","native":false},{"column":8,"file":"/Users/pk53126/Desktop/git folders/smallcase-assignment/stock-portfolio-tracking-backend-apis/api/routes/trades/tradesRoute.js","function":"module.exports","line":43,"method":"exports","native":false},{"column":1,"file":"/Users/pk53126/Desktop/git folders/smallcase-assignment/stock-portfolio-tracking-backend-apis/server.js","function":null,"line":72,"method":null,"native":false},{"column":30,"file":"module.js","function":"Module._compile","line":652,"method":"_compile","native":false},{"column":10,"file":"module.js","function":"Module._extensions..js","line":663,"method":".js","native":false},{"column":32,"file":"module.js","function":"Module.load","line":565,"method":"load","native":false},{"column":12,"file":"module.js","function":"tryModuleLoad","line":505,"method":null,"native":false},{"column":3,"file":"module.js","function":"Module._load","line":497,"method":"_load","native":false},{"column":10,"file":"module.js","function":"Module.runMain","line":693,"method":"runMain","native":false},{"column":16,"file":"bootstrap_node.js","function":"startup","line":191,"method":null,"native":false},{"column":3,"file":"bootstrap_node.js","function":null,"line":612,"method":null,"native":false}]}
+{"message":"[Server]:  api server started on: 4000","level":"info"}
+{"message":"[Server]: Connection with MongoDB installed","level":"info"}
+{"message":"[Server]:  api server started on: 4000","level":"info"}
+{"message":"[Server]: Connection with MongoDB installed","level":"info"}
+{"message":"[Server]:  api server started on: 4000","level":"info"}
+{"message":"[Server]: Connection with MongoDB installed","level":"info"}
+{"message":"[Server]:  api server started on: 4000","level":"info"}
+{"message":"[Server]: Connection with MongoDB installed","level":"info"}
+{"message":"[Server]:  api server started on: 4000","level":"info"}
+{"message":"[Server]: Connection with MongoDB installed","level":"info"}
+{"message":"[Server]:  api server started on: 4000","level":"info"}
+{"message":"[Server]: Connection with MongoDB installed","level":"info"}
+{"message":"[Server]:  api server started on: 4000","level":"info"}
+{"message":"[Server]: Connection with MongoDB installed","level":"info"}
+{"message":"[Server]:  api server started on: 4000","level":"info"}
+{"message":"[Server]: Connection with MongoDB installed","level":"info"}
+{"message":"[Server]:  api server started on: 4000","level":"info"}
+{"message":"[Server]: Connection with MongoDB installed","level":"info"}
+{"message":"[Server]:  api server started on: 4000","level":"info"}
+{"message":"[Server]: Connection with MongoDB installed","level":"info"}
+{"message":"[Server]:  api server started on: 4000","level":"info"}
+{"message":"[Server]: Connection with MongoDB installed","level":"info"}
+{"error":{},"level":"error","message":"uncaughtException: Route.get() requires a callback function but got a [object Undefined]\nError: Route.get() requires a callback function but got a [object Undefined]\n    at Route.(anonymous function) [as get] (/Users/pk53126/Desktop/git folders/smallcase-assignment/stock-portfolio-tracking-backend-apis/node_modules/express/lib/router/route.js:202:15)\n    at module.exports (/Users/pk53126/Desktop/git folders/smallcase-assignment/stock-portfolio-tracking-backend-apis/api/routes/trades/tradesRoute.js:51:5)\n    at Object.<anonymous> (/Users/pk53126/Desktop/git folders/smallcase-assignment/stock-portfolio-tracking-backend-apis/server.js:72:1)\n    at Module._compile (module.js:652:30)\n    at Object.Module._extensions..js (module.js:663:10)\n    at Module.load (module.js:565:32)\n    at tryModuleLoad (module.js:505:12)\n    at Function.Module._load (module.js:497:3)\n    at Function.Module.runMain (module.js:693:10)\n    at startup (bootstrap_node.js:191:16)\n    at bootstrap_node.js:612:3","stack":"Error: Route.get() requires a callback function but got a [object Undefined]\n    at Route.(anonymous function) [as get] (/Users/pk53126/Desktop/git folders/smallcase-assignment/stock-portfolio-tracking-backend-apis/node_modules/express/lib/router/route.js:202:15)\n    at module.exports (/Users/pk53126/Desktop/git folders/smallcase-assignment/stock-portfolio-tracking-backend-apis/api/routes/trades/tradesRoute.js:51:5)\n    at Object.<anonymous> (/Users/pk53126/Desktop/git folders/smallcase-assignment/stock-portfolio-tracking-backend-apis/server.js:72:1)\n    at Module._compile (module.js:652:30)\n    at Object.Module._extensions..js (module.js:663:10)\n    at Module.load (module.js:565:32)\n    at tryModuleLoad (module.js:505:12)\n    at Function.Module._load (module.js:497:3)\n    at Function.Module.runMain (module.js:693:10)\n    at startup (bootstrap_node.js:191:16)\n    at bootstrap_node.js:612:3","exception":true,"date":"Wed Oct 30 2019 20:48:30 GMT+0530 (IST)","process":{"pid":46247,"uid":504,"gid":20,"cwd":"/Users/pk53126/Desktop/git folders/smallcase-assignment/stock-portfolio-tracking-backend-apis","execPath":"/usr/local/bin/node","version":"v8.11.3","argv":["/usr/local/bin/node","/Users/pk53126/Desktop/git folders/smallcase-assignment/stock-portfolio-tracking-backend-apis/server.js"],"memoryUsage":{"rss":58355712,"heapTotal":54870016,"heapUsed":26973824,"external":19068168}},"os":{"loadavg":[2.48388671875,2.58642578125,2.65576171875],"uptime":1036814},"trace":[{"column":15,"file":"/Users/pk53126/Desktop/git folders/smallcase-assignment/stock-portfolio-tracking-backend-apis/node_modules/express/lib/router/route.js","function":"Route.(anonymous function) [as get]","line":202,"method":"(anonymous function) [as get]","native":false},{"column":5,"file":"/Users/pk53126/Desktop/git folders/smallcase-assignment/stock-portfolio-tracking-backend-apis/api/routes/trades/tradesRoute.js","function":"module.exports","line":51,"method":"exports","native":false},{"column":1,"file":"/Users/pk53126/Desktop/git folders/smallcase-assignment/stock-portfolio-tracking-backend-apis/server.js","function":null,"line":72,"method":null,"native":false},{"column":30,"file":"module.js","function":"Module._compile","line":652,"method":"_compile","native":false},{"column":10,"file":"module.js","function":"Module._extensions..js","line":663,"method":".js","native":false},{"column":32,"file":"module.js","function":"Module.load","line":565,"method":"load","native":false},{"column":12,"file":"module.js","function":"tryModuleLoad","line":505,"method":null,"native":false},{"column":3,"file":"module.js","function":"Module._load","line":497,"method":"_load","native":false},{"column":10,"file":"module.js","function":"Module.runMain","line":693,"method":"runMain","native":false},{"column":16,"file":"bootstrap_node.js","function":"startup","line":191,"method":null,"native":false},{"column":3,"file":"bootstrap_node.js","function":null,"line":612,"method":null,"native":false}]}
+{"error":{},"level":"error","message":"uncaughtException: Route.get() requires a callback function but got a [object Undefined]\nError: Route.get() requires a callback function but got a [object Undefined]\n    at Route.(anonymous function) [as get] (/Users/pk53126/Desktop/git folders/smallcase-assignment/stock-portfolio-tracking-backend-apis/node_modules/express/lib/router/route.js:202:15)\n    at module.exports (/Users/pk53126/Desktop/git folders/smallcase-assignment/stock-portfolio-tracking-backend-apis/api/routes/trades/tradesRoute.js:51:5)\n    at Object.<anonymous> (/Users/pk53126/Desktop/git folders/smallcase-assignment/stock-portfolio-tracking-backend-apis/server.js:72:1)\n    at Module._compile (module.js:652:30)\n    at Object.Module._extensions..js (module.js:663:10)\n    at Module.load (module.js:565:32)\n    at tryModuleLoad (module.js:505:12)\n    at Function.Module._load (module.js:497:3)\n    at Function.Module.runMain (module.js:693:10)\n    at startup (bootstrap_node.js:191:16)\n    at bootstrap_node.js:612:3","stack":"Error: Route.get() requires a callback function but got a [object Undefined]\n    at Route.(anonymous function) [as get] (/Users/pk53126/Desktop/git folders/smallcase-assignment/stock-portfolio-tracking-backend-apis/node_modules/express/lib/router/route.js:202:15)\n    at module.exports (/Users/pk53126/Desktop/git folders/smallcase-assignment/stock-portfolio-tracking-backend-apis/api/routes/trades/tradesRoute.js:51:5)\n    at Object.<anonymous> (/Users/pk53126/Desktop/git folders/smallcase-assignment/stock-portfolio-tracking-backend-apis/server.js:72:1)\n    at Module._compile (module.js:652:30)\n    at Object.Module._extensions..js (module.js:663:10)\n    at Module.load (module.js:565:32)\n    at tryModuleLoad (module.js:505:12)\n    at Function.Module._load (module.js:497:3)\n    at Function.Module.runMain (module.js:693:10)\n    at startup (bootstrap_node.js:191:16)\n    at bootstrap_node.js:612:3","exception":true,"date":"Wed Oct 30 2019 20:49:01 GMT+0530 (IST)","process":{"pid":46263,"uid":504,"gid":20,"cwd":"/Users/pk53126/Desktop/git folders/smallcase-assignment/stock-portfolio-tracking-backend-apis","execPath":"/usr/local/bin/node","version":"v8.11.3","argv":["/usr/local/bin/node","/Users/pk53126/Desktop/git folders/smallcase-assignment/stock-portfolio-tracking-backend-apis/server.js"],"memoryUsage":{"rss":60489728,"heapTotal":58552320,"heapUsed":23019232,"external":18585746}},"os":{"loadavg":[2.52880859375,2.5791015625,2.64990234375],"uptime":1036845},"trace":[{"column":15,"file":"/Users/pk53126/Desktop/git folders/smallcase-assignment/stock-portfolio-tracking-backend-apis/node_modules/express/lib/router/route.js","function":"Route.(anonymous function) [as get]","line":202,"method":"(anonymous function) [as get]","native":false},{"column":5,"file":"/Users/pk53126/Desktop/git folders/smallcase-assignment/stock-portfolio-tracking-backend-apis/api/routes/trades/tradesRoute.js","function":"module.exports","line":51,"method":"exports","native":false},{"column":1,"file":"/Users/pk53126/Desktop/git folders/smallcase-assignment/stock-portfolio-tracking-backend-apis/server.js","function":null,"line":72,"method":null,"native":false},{"column":30,"file":"module.js","function":"Module._compile","line":652,"method":"_compile","native":false},{"column":10,"file":"module.js","function":"Module._extensions..js","line":663,"method":".js","native":false},{"column":32,"file":"module.js","function":"Module.load","line":565,"method":"load","native":false},{"column":12,"file":"module.js","function":"tryModuleLoad","line":505,"method":null,"native":false},{"column":3,"file":"module.js","function":"Module._load","line":497,"method":"_load","native":false},{"column":10,"file":"module.js","function":"Module.runMain","line":693,"method":"runMain","native":false},{"column":16,"file":"bootstrap_node.js","function":"startup","line":191,"method":null,"native":false},{"column":3,"file":"bootstrap_node.js","function":null,"line":612,"method":null,"native":false}]}
+{"error":{},"level":"error","message":"uncaughtException: Route.get() requires a callback function but got a [object Undefined]\nError: Route.get() requires a callback function but got a [object Undefined]\n    at Route.(anonymous function) [as get] (/Users/pk53126/Desktop/git folders/smallcase-assignment/stock-portfolio-tracking-backend-apis/node_modules/express/lib/router/route.js:202:15)\n    at module.exports (/Users/pk53126/Desktop/git folders/smallcase-assignment/stock-portfolio-tracking-backend-apis/api/routes/trades/tradesRoute.js:51:5)\n    at Object.<anonymous> (/Users/pk53126/Desktop/git folders/smallcase-assignment/stock-portfolio-tracking-backend-apis/server.js:72:1)\n    at Module._compile (module.js:652:30)\n    at Object.Module._extensions..js (module.js:663:10)\n    at Module.load (module.js:565:32)\n    at tryModuleLoad (module.js:505:12)\n    at Function.Module._load (module.js:497:3)\n    at Function.Module.runMain (module.js:693:10)\n    at startup (bootstrap_node.js:191:16)\n    at bootstrap_node.js:612:3","stack":"Error: Route.get() requires a callback function but got a [object Undefined]\n    at Route.(anonymous function) [as get] (/Users/pk53126/Desktop/git folders/smallcase-assignment/stock-portfolio-tracking-backend-apis/node_modules/express/lib/router/route.js:202:15)\n    at module.exports (/Users/pk53126/Desktop/git folders/smallcase-assignment/stock-portfolio-tracking-backend-apis/api/routes/trades/tradesRoute.js:51:5)\n    at Object.<anonymous> (/Users/pk53126/Desktop/git folders/smallcase-assignment/stock-portfolio-tracking-backend-apis/server.js:72:1)\n    at Module._compile (module.js:652:30)\n    at Object.Module._extensions..js (module.js:663:10)\n    at Module.load (module.js:565:32)\n    at tryModuleLoad (module.js:505:12)\n    at Function.Module._load (module.js:497:3)\n    at Function.Module.runMain (module.js:693:10)\n    at startup (bootstrap_node.js:191:16)\n    at bootstrap_node.js:612:3","exception":true,"date":"Wed Oct 30 2019 20:49:35 GMT+0530 (IST)","process":{"pid":46267,"uid":504,"gid":20,"cwd":"/Users/pk53126/Desktop/git folders/smallcase-assignment/stock-portfolio-tracking-backend-apis","execPath":"/usr/local/bin/node","version":"v8.11.3","argv":["/usr/local/bin/node","/Users/pk53126/Desktop/git folders/smallcase-assignment/stock-portfolio-tracking-backend-apis/server.js"],"memoryUsage":{"rss":58986496,"heapTotal":55406592,"heapUsed":25499488,"external":19101888}},"os":{"loadavg":[2.6103515625,2.56689453125,2.64013671875],"uptime":1036879},"trace":[{"column":15,"file":"/Users/pk53126/Desktop/git folders/smallcase-assignment/stock-portfolio-tracking-backend-apis/node_modules/express/lib/router/route.js","function":"Route.(anonymous function) [as get]","line":202,"method":"(anonymous function) [as get]","native":false},{"column":5,"file":"/Users/pk53126/Desktop/git folders/smallcase-assignment/stock-portfolio-tracking-backend-apis/api/routes/trades/tradesRoute.js","function":"module.exports","line":51,"method":"exports","native":false},{"column":1,"file":"/Users/pk53126/Desktop/git folders/smallcase-assignment/stock-portfolio-tracking-backend-apis/server.js","function":null,"line":72,"method":null,"native":false},{"column":30,"file":"module.js","function":"Module._compile","line":652,"method":"_compile","native":false},{"column":10,"file":"module.js","function":"Module._extensions..js","line":663,"method":".js","native":false},{"column":32,"file":"module.js","function":"Module.load","line":565,"method":"load","native":false},{"column":12,"file":"module.js","function":"tryModuleLoad","line":505,"method":null,"native":false},{"column":3,"file":"module.js","function":"Module._load","line":497,"method":"_load","native":false},{"column":10,"file":"module.js","function":"Module.runMain","line":693,"method":"runMain","native":false},{"column":16,"file":"bootstrap_node.js","function":"startup","line":191,"method":null,"native":false},{"column":3,"file":"bootstrap_node.js","function":null,"line":612,"method":null,"native":false}]}
+{"error":{},"level":"error","message":"uncaughtException: Route.get() requires a callback function but got a [object Undefined]\nError: Route.get() requires a callback function but got a [object Undefined]\n    at Route.(anonymous function) [as get] (/Users/pk53126/Desktop/git folders/smallcase-assignment/stock-portfolio-tracking-backend-apis/node_modules/express/lib/router/route.js:202:15)\n    at module.exports (/Users/pk53126/Desktop/git folders/smallcase-assignment/stock-portfolio-tracking-backend-apis/api/routes/trades/tradesRoute.js:51:5)\n    at Object.<anonymous> (/Users/pk53126/Desktop/git folders/smallcase-assignment/stock-portfolio-tracking-backend-apis/server.js:72:1)\n    at Module._compile (module.js:652:30)\n    at Object.Module._extensions..js (module.js:663:10)\n    at Module.load (module.js:565:32)\n    at tryModuleLoad (module.js:505:12)\n    at Function.Module._load (module.js:497:3)\n    at Function.Module.runMain (module.js:693:10)\n    at startup (bootstrap_node.js:191:16)\n    at bootstrap_node.js:612:3","stack":"Error: Route.get() requires a callback function but got a [object Undefined]\n    at Route.(anonymous function) [as get] (/Users/pk53126/Desktop/git folders/smallcase-assignment/stock-portfolio-tracking-backend-apis/node_modules/express/lib/router/route.js:202:15)\n    at module.exports (/Users/pk53126/Desktop/git folders/smallcase-assignment/stock-portfolio-tracking-backend-apis/api/routes/trades/tradesRoute.js:51:5)\n    at Object.<anonymous> (/Users/pk53126/Desktop/git folders/smallcase-assignment/stock-portfolio-tracking-backend-apis/server.js:72:1)\n    at Module._compile (module.js:652:30)\n    at Object.Module._extensions..js (module.js:663:10)\n    at Module.load (module.js:565:32)\n    at tryModuleLoad (module.js:505:12)\n    at Function.Module._load (module.js:497:3)\n    at Function.Module.runMain (module.js:693:10)\n    at startup (bootstrap_node.js:191:16)\n    at bootstrap_node.js:612:3","exception":true,"date":"Wed Oct 30 2019 20:49:49 GMT+0530 (IST)","process":{"pid":46276,"uid":504,"gid":20,"cwd":"/Users/pk53126/Desktop/git folders/smallcase-assignment/stock-portfolio-tracking-backend-apis","execPath":"/usr/local/bin/node","version":"v8.11.3","argv":["/usr/local/bin/node","/Users/pk53126/Desktop/git folders/smallcase-assignment/stock-portfolio-tracking-backend-apis/server.js"],"memoryUsage":{"rss":59830272,"heapTotal":56979456,"heapUsed":24150680,"external":18577589}},"os":{"loadavg":[2.5478515625,2.5546875,2.63427734375],"uptime":1036893},"trace":[{"column":15,"file":"/Users/pk53126/Desktop/git folders/smallcase-assignment/stock-portfolio-tracking-backend-apis/node_modules/express/lib/router/route.js","function":"Route.(anonymous function) [as get]","line":202,"method":"(anonymous function) [as get]","native":false},{"column":5,"file":"/Users/pk53126/Desktop/git folders/smallcase-assignment/stock-portfolio-tracking-backend-apis/api/routes/trades/tradesRoute.js","function":"module.exports","line":51,"method":"exports","native":false},{"column":1,"file":"/Users/pk53126/Desktop/git folders/smallcase-assignment/stock-portfolio-tracking-backend-apis/server.js","function":null,"line":72,"method":null,"native":false},{"column":30,"file":"module.js","function":"Module._compile","line":652,"method":"_compile","native":false},{"column":10,"file":"module.js","function":"Module._extensions..js","line":663,"method":".js","native":false},{"column":32,"file":"module.js","function":"Module.load","line":565,"method":"load","native":false},{"column":12,"file":"module.js","function":"tryModuleLoad","line":505,"method":null,"native":false},{"column":3,"file":"module.js","function":"Module._load","line":497,"method":"_load","native":false},{"column":10,"file":"module.js","function":"Module.runMain","line":693,"method":"runMain","native":false},{"column":16,"file":"bootstrap_node.js","function":"startup","line":191,"method":null,"native":false},{"column":3,"file":"bootstrap_node.js","function":null,"line":612,"method":null,"native":false}]}
+{"error":{},"level":"error","message":"uncaughtException: Route.get() requires a callback function but got a [object Undefined]\nError: Route.get() requires a callback function but got a [object Undefined]\n    at Route.(anonymous function) [as get] (/Users/pk53126/Desktop/git folders/smallcase-assignment/stock-portfolio-tracking-backend-apis/node_modules/express/lib/router/route.js:202:15)\n    at module.exports (/Users/pk53126/Desktop/git folders/smallcase-assignment/stock-portfolio-tracking-backend-apis/api/routes/trades/tradesRoute.js:51:5)\n    at Object.<anonymous> (/Users/pk53126/Desktop/git folders/smallcase-assignment/stock-portfolio-tracking-backend-apis/server.js:72:1)\n    at Module._compile (module.js:652:30)\n    at Object.Module._extensions..js (module.js:663:10)\n    at Module.load (module.js:565:32)\n    at tryModuleLoad (module.js:505:12)\n    at Function.Module._load (module.js:497:3)\n    at Function.Module.runMain (module.js:693:10)\n    at startup (bootstrap_node.js:191:16)\n    at bootstrap_node.js:612:3","stack":"Error: Route.get() requires a callback function but got a [object Undefined]\n    at Route.(anonymous function) [as get] (/Users/pk53126/Desktop/git folders/smallcase-assignment/stock-portfolio-tracking-backend-apis/node_modules/express/lib/router/route.js:202:15)\n    at module.exports (/Users/pk53126/Desktop/git folders/smallcase-assignment/stock-portfolio-tracking-backend-apis/api/routes/trades/tradesRoute.js:51:5)\n    at Object.<anonymous> (/Users/pk53126/Desktop/git folders/smallcase-assignment/stock-portfolio-tracking-backend-apis/server.js:72:1)\n    at Module._compile (module.js:652:30)\n    at Object.Module._extensions..js (module.js:663:10)\n    at Module.load (module.js:565:32)\n    at tryModuleLoad (module.js:505:12)\n    at Function.Module._load (module.js:497:3)\n    at Function.Module.runMain (module.js:693:10)\n    at startup (bootstrap_node.js:191:16)\n    at bootstrap_node.js:612:3","exception":true,"date":"Wed Oct 30 2019 20:51:07 GMT+0530 (IST)","process":{"pid":46291,"uid":504,"gid":20,"cwd":"/Users/pk53126/Desktop/git folders/smallcase-assignment/stock-portfolio-tracking-backend-apis","execPath":"/usr/local/bin/node","version":"v8.11.3","argv":["/usr/local/bin/node","/Users/pk53126/Desktop/git folders/smallcase-assignment/stock-portfolio-tracking-backend-apis/server.js"],"memoryUsage":{"rss":58617856,"heapTotal":54870016,"heapUsed":27104608,"external":19151449}},"os":{"loadavg":[2.42041015625,2.5107421875,2.60693359375],"uptime":1036971},"trace":[{"column":15,"file":"/Users/pk53126/Desktop/git folders/smallcase-assignment/stock-portfolio-tracking-backend-apis/node_modules/express/lib/router/route.js","function":"Route.(anonymous function) [as get]","line":202,"method":"(anonymous function) [as get]","native":false},{"column":5,"file":"/Users/pk53126/Desktop/git folders/smallcase-assignment/stock-portfolio-tracking-backend-apis/api/routes/trades/tradesRoute.js","function":"module.exports","line":51,"method":"exports","native":false},{"column":1,"file":"/Users/pk53126/Desktop/git folders/smallcase-assignment/stock-portfolio-tracking-backend-apis/server.js","function":null,"line":72,"method":null,"native":false},{"column":30,"file":"module.js","function":"Module._compile","line":652,"method":"_compile","native":false},{"column":10,"file":"module.js","function":"Module._extensions..js","line":663,"method":".js","native":false},{"column":32,"file":"module.js","function":"Module.load","line":565,"method":"load","native":false},{"column":12,"file":"module.js","function":"tryModuleLoad","line":505,"method":null,"native":false},{"column":3,"file":"module.js","function":"Module._load","line":497,"method":"_load","native":false},{"column":10,"file":"module.js","function":"Module.runMain","line":693,"method":"runMain","native":false},{"column":16,"file":"bootstrap_node.js","function":"startup","line":191,"method":null,"native":false},{"column":3,"file":"bootstrap_node.js","function":null,"line":612,"method":null,"native":false}]}
+{"message":"[Server]:  api server started on: 4000","level":"info"}
+{"message":"[Server]: Connection with MongoDB installed","level":"info"}
+{"message":"[Server]:  api server started on: 4000","level":"info"}
+{"message":"[Server]: Connection with MongoDB installed","level":"info"}
+{"message":"[Server]:  api server started on: 4000","level":"info"}
+{"message":"[Server]: Connection with MongoDB installed","level":"info"}
+{"message":"[Server]:  api server started on: 4000","level":"info"}
+{"message":"[Server]: Connection with MongoDB installed","level":"info"}
+{"message":"[Server]:  api server started on: 4000","level":"info"}
+{"message":"[Server]: Connection with MongoDB installed","level":"info"}
+{"message":"[Server]:  api server started on: 4000","level":"info"}
+{"message":"[Server]: Connection with MongoDB installed","level":"info"}
+{"message":"[Server]:  api server started on: 4000","level":"info"}
+{"message":"[Server]: Connection with MongoDB installed","level":"info"}
+{"message":"[Server]:  api server started on: 4000","level":"info"}
+{"message":"[Server]: Connection with MongoDB installed","level":"info"}
+{"message":"[Server]:  api server started on: 4000","level":"info"}
+{"message":"[Server]: Connection with MongoDB installed","level":"info"}
+{"message":"[Server]:  api server started on: 4000","level":"info"}
+{"message":"[Server]: Connection with MongoDB installed","level":"info"}
+{"message":"[Server]:  api server started on: 4000","level":"info"}
+{"message":"[Server]: Connection with MongoDB installed","level":"info"}
+{"message":"[Server]:  api server started on: 4000","level":"info"}
+{"message":"[Server]: Connection with MongoDB installed","level":"info"}
+{"message":"[Server]:  api server started on: 4000","level":"info"}
+{"message":"[Server]: Connection with MongoDB installed","level":"info"}
+{"message":"[Server]:  api server started on: 4000","level":"info"}
+{"message":"[Server]: Connection with MongoDB installed","level":"info"}
+{"message":"[Server]:  api server started on: 4000","level":"info"}
+{"message":"[Server]: Connection with MongoDB installed","level":"info"}
+{"message":"[Server]:  api server started on: 4000","level":"info"}
+{"message":"[Server]: Connection with MongoDB installed","level":"info"}
+{"message":"[Server]:  api server started on: 4000","level":"info"}
+{"message":"[Server]: Connection with MongoDB installed","level":"info"}
+{"message":"[Server]:  api server started on: 4000","level":"info"}
+{"message":"[Server]: Connection with MongoDB installed","level":"info"}
+{"message":"[Server]:  api server started on: 4000","level":"info"}
+{"message":"[Server]: Connection with MongoDB installed","level":"info"}
+{"message":"[Server]:  api server started on: 4000","level":"info"}
+{"message":"[Server]: Connection with MongoDB installed","level":"info"}
+{"message":"[Server]:  api server started on: 4000","level":"info"}
+{"message":"[Server]: Connection with MongoDB installed","level":"info"}
+{"message":"[Server]:  api server started on: 4000","level":"info"}
+{"message":"[Server]: Connection with MongoDB installed","level":"info"}
+{"message":"[Server]:  api server started on: 4000","level":"info"}
+{"message":"[Server]: Connection with MongoDB installed","level":"info"}
+{"message":"[Server]:  api server started on: 4000","level":"info"}
+{"message":"[Server]: Connection with MongoDB installed","level":"info"}
+{"message":"[Server]:  api server started on: 4000","level":"info"}
+{"message":"[Server]: Connection with MongoDB installed","level":"info"}
+{"message":"[Server]:  api server started on: 4000","level":"info"}
+{"message":"[Server]: Connection with MongoDB installed","level":"info"}
+{"message":"[Server]:  api server started on: 4000","level":"info"}
+{"message":"[Server]: Connection with MongoDB installed","level":"info"}
+{"message":"[Server]:  api server started on: 4000","level":"info"}
+{"message":"[Server]: Connection with MongoDB installed","level":"info"}
+{"message":"[Server]:  api server started on: 4000","level":"info"}
+{"message":"[Server]: Connection with MongoDB installed","level":"info"}
+{"message":"[Server]:  api server started on: 4000","level":"info"}
+{"message":"[Server]: Connection with MongoDB installed","level":"info"}
+{"message":"[Server]:  api server started on: 4000","level":"info"}
+{"message":"[Server]: Connection with MongoDB installed","level":"info"}
+{"message":"[Server]:  api server started on: 4000","level":"info"}
+{"message":"[Server]: Connection with MongoDB installed","level":"info"}
+{"message":"[Server]:  api server started on: 4000","level":"info"}
+{"message":"[Server]: Connection with MongoDB installed","level":"info"}
+{"message":"[Server]:  api server started on: 4000","level":"info"}
+{"message":"[Server]: Connection with MongoDB installed","level":"info"}
+{"message":"[Server]:  api server started on: 4000","level":"info"}
+{"message":"[Server]: Connection with MongoDB installed","level":"info"}
+{"message":"[Server]:  api server started on: 4000","level":"info"}
+{"message":"[Server]: Connection with MongoDB installed","level":"info"}
+{"message":"[Server]:  api server started on: 4000","level":"info"}
+{"message":"[Server]: Connection with MongoDB installed","level":"info"}
+{"message":"[Server]:  api server started on: 4000","level":"info"}
+{"message":"[Server]: Connection with MongoDB installed","level":"info"}
+{"message":"[Server]:  api server started on: 4000","level":"info"}
+{"message":"[Server]: Connection with MongoDB installed","level":"info"}
+{"message":"[Server]:  api server started on: 4000","level":"info"}
+{"message":"[Server]: Connection with MongoDB installed","level":"info"}
+{"message":"[Server]:  api server started on: 4000","level":"info"}
+{"message":"[Server]: Connection with MongoDB installed","level":"info"}
+{"message":"[Server]:  api server started on: 4000","level":"info"}
+{"message":"[Server]: Connection with MongoDB installed","level":"info"}
+{"message":"[Server]:  api server started on: 4000","level":"info"}
+{"message":"[Server]: Connection with MongoDB installed","level":"info"}
+{"message":"[Server]:  api server started on: 4000","level":"info"}
+{"message":"[Server]: Connection with MongoDB installed","level":"info"}
+{"error":{},"level":"error","message":"uncaughtException: Route.get() requires a callback function but got a [object Undefined]\nError: Route.get() requires a callback function but got a [object Undefined]\n    at Route.(anonymous function) [as get] (/Users/pk53126/Desktop/git folders/smallcase-assignment/stock-portfolio-tracking-backend-apis/node_modules/express/lib/router/route.js:202:15)\n    at module.exports (/Users/pk53126/Desktop/git folders/smallcase-assignment/stock-portfolio-tracking-backend-apis/api/routes/trades/tradesRoute.js:51:8)\n    at Object.<anonymous> (/Users/pk53126/Desktop/git folders/smallcase-assignment/stock-portfolio-tracking-backend-apis/server.js:72:1)\n    at Module._compile (module.js:652:30)\n    at Object.Module._extensions..js (module.js:663:10)\n    at Module.load (module.js:565:32)\n    at tryModuleLoad (module.js:505:12)\n    at Function.Module._load (module.js:497:3)\n    at Function.Module.runMain (module.js:693:10)\n    at startup (bootstrap_node.js:191:16)\n    at bootstrap_node.js:612:3","stack":"Error: Route.get() requires a callback function but got a [object Undefined]\n    at Route.(anonymous function) [as get] (/Users/pk53126/Desktop/git folders/smallcase-assignment/stock-portfolio-tracking-backend-apis/node_modules/express/lib/router/route.js:202:15)\n    at module.exports (/Users/pk53126/Desktop/git folders/smallcase-assignment/stock-portfolio-tracking-backend-apis/api/routes/trades/tradesRoute.js:51:8)\n    at Object.<anonymous> (/Users/pk53126/Desktop/git folders/smallcase-assignment/stock-portfolio-tracking-backend-apis/server.js:72:1)\n    at Module._compile (module.js:652:30)\n    at Object.Module._extensions..js (module.js:663:10)\n    at Module.load (module.js:565:32)\n    at tryModuleLoad (module.js:505:12)\n    at Function.Module._load (module.js:497:3)\n    at Function.Module.runMain (module.js:693:10)\n    at startup (bootstrap_node.js:191:16)\n    at bootstrap_node.js:612:3","exception":true,"date":"Wed Oct 30 2019 22:08:41 GMT+0530 (IST)","process":{"pid":47357,"uid":504,"gid":20,"cwd":"/Users/pk53126/Desktop/git folders/smallcase-assignment/stock-portfolio-tracking-backend-apis","execPath":"/usr/local/bin/node","version":"v8.11.3","argv":["/usr/local/bin/node","/Users/pk53126/Desktop/git folders/smallcase-assignment/stock-portfolio-tracking-backend-apis/server.js"],"memoryUsage":{"rss":59584512,"heapTotal":54870016,"heapUsed":28364488,"external":19154217}},"os":{"loadavg":[2.7529296875,3.01416015625,3.38720703125],"uptime":1041625},"trace":[{"column":15,"file":"/Users/pk53126/Desktop/git folders/smallcase-assignment/stock-portfolio-tracking-backend-apis/node_modules/express/lib/router/route.js","function":"Route.(anonymous function) [as get]","line":202,"method":"(anonymous function) [as get]","native":false},{"column":8,"file":"/Users/pk53126/Desktop/git folders/smallcase-assignment/stock-portfolio-tracking-backend-apis/api/routes/trades/tradesRoute.js","function":"module.exports","line":51,"method":"exports","native":false},{"column":1,"file":"/Users/pk53126/Desktop/git folders/smallcase-assignment/stock-portfolio-tracking-backend-apis/server.js","function":null,"line":72,"method":null,"native":false},{"column":30,"file":"module.js","function":"Module._compile","line":652,"method":"_compile","native":false},{"column":10,"file":"module.js","function":"Module._extensions..js","line":663,"method":".js","native":false},{"column":32,"file":"module.js","function":"Module.load","line":565,"method":"load","native":false},{"column":12,"file":"module.js","function":"tryModuleLoad","line":505,"method":null,"native":false},{"column":3,"file":"module.js","function":"Module._load","line":497,"method":"_load","native":false},{"column":10,"file":"module.js","function":"Module.runMain","line":693,"method":"runMain","native":false},{"column":16,"file":"bootstrap_node.js","function":"startup","line":191,"method":null,"native":false},{"column":3,"file":"bootstrap_node.js","function":null,"line":612,"method":null,"native":false}]}
+{"message":"[Server]:  api server started on: 4000","level":"info"}
+{"message":"[Server]: Connection with MongoDB installed","level":"info"}
+{"message":"[Server]:  api server started on: 4000","level":"info"}
+{"message":"[Server]: Connection with MongoDB installed","level":"info"}
+{"message":"[Server]:  api server started on: 4000","level":"info"}
+{"message":"[Server]: Connection with MongoDB installed","level":"info"}
+{"message":"[Server]:  api server started on: 4000","level":"info"}
+{"message":"[Server]: Connection with MongoDB installed","level":"info"}
+{"message":"[Server]:  api server started on: 4000","level":"info"}
+{"message":"[Server]: Connection with MongoDB installed","level":"info"}
+{"message":"[Server]:  api server started on: 4000","level":"info"}
+{"message":"[Server]: Connection with MongoDB installed","level":"info"}
+{"message":"[Server]:  api server started on: 4000","level":"info"}
+{"message":"[Server]: Connection with MongoDB installed","level":"info"}
+{"message":"[Server]:  api server started on: 4000","level":"info"}
+{"message":"[Server]: Connection with MongoDB installed","level":"info"}
+{"message":"[Server]:  api server started on: 4000","level":"info"}
+{"message":"[Server]: Connection with MongoDB installed","level":"info"}
+{"message":"[Server]:  api server started on: 4000","level":"info"}
+{"message":"[Server]: Connection with MongoDB installed","level":"info"}
+{"message":"[Server]:  api server started on: 4000","level":"info"}
+{"message":"[Server]: Connection with MongoDB installed","level":"info"}
+{"message":"[Server]:  api server started on: 4000","level":"info"}
+{"message":"[Server]: Connection with MongoDB installed","level":"info"}
+{"message":"[Server]:  api server started on: 4000","level":"info"}
+{"message":"[Server]: Connection with MongoDB installed","level":"info"}
+{"message":"[Server]:  api server started on: 4000","level":"info"}
+{"message":"[Server]: Connection with MongoDB installed","level":"info"}
+{"message":"[Server]:  api server started on: 4000","level":"info"}
+{"message":"[Server]: Connection with MongoDB installed","level":"info"}
+{"message":"[Server]:  api server started on: 4000","level":"info"}
+{"message":"[Server]: Connection with MongoDB installed","level":"info"}
+{"message":"[Server]:  api server started on: 4000","level":"info"}
+{"message":"[Server]: Connection with MongoDB installed","level":"info"}
+{"message":"[Server]:  api server started on: 4000","level":"info"}
+{"message":"[Server]: Connection with MongoDB installed","level":"info"}
+{"message":"[Server]:  api server started on: 4000","level":"info"}
+{"message":"[Server]: Connection with MongoDB installed","level":"info"}
+{"message":"[Server]:  api server started on: 4000","level":"info"}
+{"message":"[Server]: Connection with MongoDB installed","level":"info"}
+{"message":"[Server]:  api server started on: 4000","level":"info"}
+{"message":"[Server]: Connection with MongoDB installed","level":"info"}
+{"message":"[Server]:  api server started on: 4000","level":"info"}
+{"message":"[Server]: Connection with MongoDB installed","level":"info"}
+{"message":"[Server]:  api server started on: 4000","level":"info"}
+{"message":"[Server]: Connection with MongoDB installed","level":"info"}
+{"message":"[usersSvc ]: Error: Authentication failed","level":"error"}
+{"message":"[usersCntrl]: Authentication failed","level":"error"}
+{"message":"[usersSvc ]: User Created Successfully @@@","level":"info"}
+{"message":"[usersSvc ]: User Created Successfully @@@","level":"info"}
+{"message":"[usersSvc ]: User Created Successfully @@@","level":"info"}
+{"message":"[usersSvc ]: User Piyush Kumar login Successfully @@@","level":"info"}
+{"message":"User logined Succefully @@@","level":"info"}
+{"message":"[ordersSvc ]: Trade [object Object] Trade Successfully Created @@@","level":"info"}
+{"message":"[ordersSvc ]: Trade [object Object],[object Object] Trade Successfully Created @@@","level":"info"}
+{"message":"[authMiddleware ]: TokenExpiredError: jwt expired","level":"error"}
+{"message":"[usersSvc ]: User Piyush Kumar login Successfully @@@","level":"info"}
+{"message":"User logined Succefully @@@","level":"info"}
+{"message":"[Server]:  api server started on: 4000","level":"info"}
+{"message":"[Server]: Connection with MongoDB installed","level":"info"}
+{"message":"[Server]:  api server started on: 4000","level":"info"}
+{"message":"[Server]: Connection with MongoDB installed","level":"info"}
+{"message":"[Server]:  api server started on: 4000","level":"info"}
+{"message":"[Server]: Connection with MongoDB installed","level":"info"}
+{"message":"[Server]:  api server started on: 4000","level":"info"}
+{"message":"[Server]: Connection with MongoDB installed","level":"info"}
+{"message":"[authMiddleware ]: TokenExpiredError: jwt expired","level":"error"}
+{"message":"[usersSvc ]: User Piyush Kumar login Successfully @@@","level":"info"}
+{"message":"User logined Succefully @@@","level":"info"}
+{"message":"[ordersSvc ]:  Trade history , of sell type","level":"info"}
+{"message":"[Server]:  api server started on: 4000","level":"info"}
+{"message":"[Server]: Connection with MongoDB installed","level":"info"}
+{"message":"[Server]:  api server started on: 4000","level":"info"}
+{"message":"[Server]: Connection with MongoDB installed","level":"info"}
+{"message":"[ordersSvc ]:  Trade history [object Object],[object Object] of sell type","level":"info"}
+{"message":"[ordersSvc ]:  Trade history  of buy type","level":"info"}
+{"message":"[ordersSvc ]:  Trade history  of buy type","level":"info"}
+{"message":"[Server]:  api server started on: 4000","level":"info"}
+{"message":"[Server]: Connection with MongoDB installed","level":"info"}
+{"message":"[Server]:  api server started on: 4000","level":"info"}
+{"message":"[Server]: Connection with MongoDB installed","level":"info"}
+{"message":"[ordersSvc ]: portfolio details { _id: 5db9c65c0ae12aba8d4a9e10,\n  tickName: 'TCS',\n  avgBuyPrice: 1833.45,\n  quantity: 5 }","level":"info"}
+{"message":"[usersSvc ]:  The Return value is -10198.5","level":"info"}
+{"message":"[ordersSvc ]: Mentioned Trade doesn't existed with Trade Id  TRD1","level":"error"}
+{"message":"[tradesCntrl]: Mentioned Trade doesn't existed","level":"error"}
+{"message":"[ordersSvc ]: Mentioned Portfolio doesn't existed with Ticket name TCS","level":"error"}
+{"message":"[tradesCntrl]: Mentioned Portfolio doesn't existed","level":"error"}
+{"message":"[ordersSvc ]: trade details [object Object]","level":"info"}
+{"message":"[Server]:  api server started on: 4000","level":"info"}
+{"message":"[Server]: Connection with MongoDB installed","level":"info"}
+{"message":"[ordersSvc ]: No Trade History for given Ticket name TCS","level":"error"}
+{"message":"[tradesCntrl]: No Trade History for given Ticket Name","level":"error"}
+{"message":"[Server]:  api server started on: 4000","level":"info"}
+{"message":"[Server]: Connection with MongoDB installed","level":"info"}
+{"message":"[ordersSvc ]: No Trade History for given Ticket name TCS","level":"error"}
+{"message":"[tradesCntrl]: No Trade History for TCS","level":"error"}
+{"message":"[ordersSvc ]: No Trade History of Sell type for given Ticket name TCS","level":"error"}
+{"message":"[tradesCntrl]: Mentioned Portfolio doesn't existed","level":"error"}
+{"message":"[Server]:  api server started on: 4000","level":"info"}
+{"message":"[Server]: Connection with MongoDB installed","level":"info"}
+{"message":"[Server]:  api server started on: 4000","level":"info"}
+{"message":"[Server]: Connection with MongoDB installed","level":"info"}
+{"message":"[ordersSvc ]: No Trade History of Sell type for given Ticket name TCS","level":"error"}
+{"message":"[tradesCntrl]: No Trade History of Sell type for TCS","level":"error"}
+{"message":"[authMiddleware ]: TokenExpiredError: jwt expired","level":"error"}
+{"message":"[usersSvc ]: User Piyush Kumar login Successfully @@@","level":"info"}
+{"message":"User logined Succefully @@@","level":"info"}
+{"message":"[ordersSvc ]: trade details [object Object]","level":"info"}
+{"message":"[ordersSvc ]: No Trade History for given Ticket name TCS","level":"error"}
+{"message":"[tradesCntrl]: No Trade History for TCS","level":"error"}
+{"message":"[ordersSvc ]: No Trade History of Sell type for given Ticket name TCS","level":"error"}
+{"message":"[tradesCntrl]: No Trade History of Sell type for TCS","level":"error"}
+{"message":"[ordersSvc ]: Mentioned Portfolio doesn't existed with Ticket name TCS","level":"error"}
+{"message":"[tradesCntrl]: Mentioned Portfolio doesn't existed","level":"error"}
+{"message":"[Server]:  api server started on: 4000","level":"info"}
+{"message":"[Server]: Connection with MongoDB installed","level":"info"}
+{"message":"[Server]:  api server started on: 4000","level":"info"}
+{"message":"[Server]: Connection with MongoDB installed","level":"info"}
+{"message":"[Server]:  api server started on: 4000","level":"info"}
+{"message":"[Server]: Connection with MongoDB installed","level":"info"}
+{"message":"[Server]:  api server started on: 4000","level":"info"}
+{"message":"[Server]: Connection with MongoDB installed","level":"info"}
+{"message":"[Server]:  api server started on: 4000","level":"info"}
+{"message":"[Server]: Connection with MongoDB installed","level":"info"}
+{"message":"[Server]:  api server started on: 4000","level":"info"}
+{"message":"[Server]: Connection with MongoDB installed","level":"info"}
+{"message":"[Server]:  api server started on: 4000","level":"info"}
+{"message":"[Server]: Connection with MongoDB installed","level":"info"}
+{"message":"[Server]:  api server started on: 4000","level":"info"}
+{"message":"[Server]: Connection with MongoDB installed","level":"info"}
+{"message":"[Server]:  api server started on: 4000","level":"info"}
+{"message":"[Server]: Connection with MongoDB installed","level":"info"}
+{"message":"[Server]:  api server started on: 4000","level":"info"}
+{"message":"[Server]: Connection with MongoDB installed","level":"info"}
+{"message":"[Server]:  api server started on: 4000","level":"info"}
+{"message":"[Server]: Connection with MongoDB installed","level":"info"}
+{"message":"[Server]:  api server started on: 4000","level":"info"}
+{"message":"[Server]: Connection with MongoDB installed","level":"info"}
+{"message":"[Server]:  api server started on: 4000","level":"info"}
+{"message":"[Server]: Connection with MongoDB installed","level":"info"}
+{"message":"[Server]:  api server started on: 4000","level":"info"}
+{"message":"[Server]: Connection with MongoDB installed","level":"info"}
+{"message":"[authMiddleware ]: TokenExpiredError: jwt expired","level":"error"}
+{"message":"[usersSvc ]: User Piyush Kumar login Successfully @@@","level":"info"}
+{"message":"User logined Succefully @@@","level":"info"}
+{"message":"[ordersSvc ]: No Trade History of Buy type for given Ticket name TCS","level":"error"}
+{"message":"[tradesCntrl]: No Trade History of Buy type for TCS","level":"error"}
+{"message":"[ordersSvc ]: Mentioned Trade doesn't existed with Trade Id  TRD1","level":"error"}
+{"message":"[tradesCntrl]: Mentioned Trade doesn't existed","level":"error"}
+{"message":"[Server]:  api server started on: 4000","level":"info"}
+{"message":"[Server]: Connection with MongoDB installed","level":"info"}
+{"message":"[Server]:  api server started on: 4000","level":"info"}
+{"message":"[Server]: Connection with MongoDB installed","level":"info"}
+{"message":"[Server]:  api server started on: 4000","level":"info"}
+{"message":"[Server]: Connection with MongoDB installed","level":"info"}
+{"message":"[Server]:  api server started on: 4000","level":"info"}
+{"message":"[Server]: Connection with MongoDB installed","level":"info"}
+{"message":"[Server]:  api server started on: 4000","level":"info"}
+{"message":"[Server]: Connection with MongoDB installed","level":"info"}
+{"message":"[ordersSvc ]:  No Trade History for given Trade Id TRD1","level":"error"}
+{"message":"[tradesCntrl]: No Trade History with Trade Id TRD1","level":"error"}
+{"message":"[usersSvc ]:  The Return value is -10198.5","level":"info"}
+{"message":"[ordersSvc ]: portfolio details { _id: 5db9c65c0ae12aba8d4a9e10,\n  tickName: 'TCS',\n  avgBuyPrice: 1833.45,\n  quantity: 5 }","level":"info"}
+{"message":"[ordersSvc ]:  Trade history [object Object],[object Object] of sell type","level":"info"}
+{"message":"[ordersSvc ]:  Trade history  of buy type","level":"info"}
+{"message":"[authMiddleware ]: TokenExpiredError: jwt expired","level":"error"}
+{"message":"[usersSvc ]: User Piyush Kumar login Successfully @@@","level":"info"}
+{"message":"User logined Succefully @@@","level":"info"}
+{"message":"[ordersSvc ]:  Trade history  of buy type","level":"info"}
+{"message":"[usersSvc ]:  The Return value is -10198.5","level":"info"}
+{"message":"[Server]:  api server started on: 4000","level":"info"}
+{"message":"[Server]: Connection with MongoDB installed","level":"info"}
+{"message":"[Server]:  api server started on: 4000","level":"info"}
+{"message":"[Server]: Connection with MongoDB installed","level":"info"}
+{"message":"[usersSvc ]:  The Return value is -10198.5","level":"info"}
+{"message":"[usersSvc ]: User Rishu Kumar login Successfully @@@","level":"info"}
+{"message":"User logined Succefully @@@","level":"info"}
+{"message":"[ordersSvc ]:  Cann't Create Trade for non-existed Ticket TCS in portfolio","level":"error"}
+{"message":"[tradesCntrl]: Cann't Create Trade for non-existed Ticket TCS in portfolio","level":"error"}
+{"message":"[ordersSvc ]: Trade  Trade Successfully Created and Placed @@@","level":"info"}
+{"message":"Get the User @@@","level":"info"}
+{"message":"[Server]:  api server started on: 4000","level":"info"}
+{"message":"[Server]: Connection with MongoDB installed","level":"info"}
+{"message":"[Server]:  api server started on: 4000","level":"info"}
+{"message":"[Server]: Connection with MongoDB installed","level":"info"}
+{"message":"[authMiddleware ]: TokenExpiredError: jwt expired","level":"error"}
+{"message":"[usersSvc ]: User Rishu Kumar login Successfully @@@","level":"info"}
+{"message":"User logined Succefully @@@","level":"info"}
+{"message":"[ordersSvc ]: Trade [object Object] Trade Successfully Created @@@","level":"info"}
+{"message":"[Server]:  api server started on: 4000","level":"info"}
+{"message":"[Server]: Connection with MongoDB installed","level":"info"}
+{"message":"[usersSvc ]: User Created Successfully @@@","level":"info"}
+{"message":"[usersSvc ]: User Created Successfully @@@","level":"info"}
+{"message":"[usersSvc ]: User Piyush Kumar login Successfully @@@","level":"info"}
+{"message":"User logined Succefully @@@","level":"info"}
+{"message":"[ordersSvc ]: Trade [object Object] Trade Successfully Created @@@","level":"info"}
+{"message":"[ordersSvc ]:  Cann't Create Trade for non-existed Ticket TCS1 in portfolio","level":"error"}
+{"message":"[tradesCntrl]: Cann't Create Trade for non-existed Ticket TCS1 in portfolio","level":"error"}
+{"message":"[Server]:  api server started on: 4000","level":"info"}
+{"message":"[Server]: Connection with MongoDB installed","level":"info"}
+{"message":"[Server]:  api server started on: 4000","level":"info"}
+{"message":"[Server]: Connection with MongoDB installed","level":"info"}
+{"message":"[usersSvc ]: User Created Successfully @@@","level":"info"}
+{"message":"[usersSvc ]: User Created Successfully @@@","level":"info"}
+{"message":"[usersSvc ]: User Piyush Kumar login Successfully @@@","level":"info"}
+{"message":"User logined Succefully @@@","level":"info"}
+{"message":"[usersSvc ]:  The Return value is -20397","level":"info"}
+{"message":"Get the User @@@","level":"info"}
+{"message":"[ordersSvc ]: portfolio details { _id: 5dbd364babb5dbda1e498aea,\n  tickName: 'TCS',\n  avgBuyPrice: 1833.45,\n  quantity: 10 }","level":"info"}
+{"message":"[Server]:  api server started on: 4000","level":"info"}
+{"message":"[Server]: Connection with MongoDB installed","level":"info"}
+{"message":"[Server]:  api server started on: 4000","level":"info"}
+{"message":"[Server]: Connection with MongoDB installed","level":"info"}
+{"message":"[Server]:  api server started on: 4000","level":"info"}
+{"message":"[Server]: Connection with MongoDB installed","level":"info"}
+{"message":"[ordersSvc ]: Trade [object Object] Trade Successfully Created @@@","level":"info"}
+{"message":"[ordersSvc ]: Trade [object Object],[object Object] Trade Successfully Created @@@","level":"info"}
+{"message":"[ordersSvc ]:  Trade history [object Object] of sell type","level":"info"}
+{"message":"[ordersSvc ]:  Trade history [object Object] of buy type","level":"info"}
+{"message":"Get the User @@@","level":"info"}
+{"message":"[ordersSvc ]: trade details [object Object]","level":"info"}
+{"message":"[ordersSvc ]: trade details [object Object]","level":"info"}
+{"message":"[usersSvc ]: User Piyush Kumar LogOut Current Session Successfully @@@","level":"info"}
+{"message":"[usersSvc ]: User Rishu Kumar login Successfully @@@","level":"info"}
+{"message":"User logined Succefully @@@","level":"info"}
+{"message":"Get the User @@@","level":"info"}
+{"message":"[ordersSvc ]: portfolio details { _id: 5dbd37f1abb5dbda1e498aef,\n  tickName: 'TCS',\n  avgBuyPrice: 1733.45,\n  quantity: 5 }","level":"info"}
+{"message":"[usersSvc ]:  The Return value is -9098.5","level":"info"}
+{"message":"[ordersSvc ]: Trade  Trade Successfully Created and Placed @@@","level":"info"}
+{"message":"Get the User @@@","level":"info"}
+{"message":"[ordersSvc ]:  No Trade History of Sell type for given Ticket name TCS","level":"error"}
+{"message":"[tradesCntrl]: No Trade History of Sell type for TCS","level":"error"}
+{"message":"[ordersSvc ]:  Trade history  of sell type","level":"info"}
+{"message":"[Server]:  api server started on: 4000","level":"info"}
+{"message":"[Server]: Connection with MongoDB installed","level":"info"}
+{"message":"[Server]:  api server started on: 4000","level":"info"}
+{"message":"[Server]: Connection with MongoDB installed","level":"info"}
+{"message":"[Server]:  api server started on: 4000","level":"info"}
+{"message":"[Server]: Connection with MongoDB installed","level":"info"}
+{"message":"[Server]:  api server started on: 4000","level":"info"}
+{"message":"[Server]: Connection with MongoDB installed","level":"info"}
+{"message":"[Server]:  api server started on: 4000","level":"info"}
+{"message":"[Server]: Connection with MongoDB installed","level":"info"}
+{"message":"[Server]:  api server started on: 4000","level":"info"}
+{"message":"[Server]: Connection with MongoDB installed","level":"info"}
+{"message":"[Server]:  api server started on: 4000","level":"info"}
+{"message":"[Server]: Connection with MongoDB installed","level":"info"}
+{"message":"[Server]:  api server started on: 4000","level":"info"}
+{"message":"[Server]: Connection with MongoDB installed","level":"info"}
+{"message":"[Server]:  api server started on: 4000","level":"info"}
+{"message":"[Server]: Connection with MongoDB installed","level":"info"}
+{"message":"[Server]:  api server started on: 4000","level":"info"}
+{"message":"[Server]: Connection with MongoDB installed","level":"info"}
+{"message":"[ordersSvc ]:  No Trades History of Sell type","level":"error"}
+{"message":"[tradesCntrl]: No Trades History of Sell type","level":"error"}
+{"message":"[ordersSvc ]:  Trades history [object Object] of Buy type","level":"info"}
+{"message":"[usersSvc ]: User Created Successfully @@@","level":"info"}
+{"message":"[usersSvc ]: User Created Successfully @@@","level":"info"}
+{"message":"[usersSvc ]: User Piyush Kumar login Successfully @@@","level":"info"}
+{"message":"User logined Succefully @@@","level":"info"}
+{"message":"Get the User @@@","level":"info"}
+{"message":"[ordersSvc ]:  No Trade History for given Ticket name TCS","level":"error"}
+{"message":"[tradesCntrl]: No Trade History for TCS","level":"error"}
+{"message":"[ordersSvc ]: Mentioned trade doesn't existed with ID TRD2","level":"error"}
+{"message":"[tradesCntrl]: Mentioned trade doesn't existed","level":"error"}
+{"message":"[ordersSvc ]:  No Trade History of Sell type for given Ticket name TCS","level":"error"}
+{"message":"[tradesCntrl]: No Trade History of Sell type for TCS","level":"error"}
+{"message":"[ordersSvc ]:  No Trade History of Buy type for given Ticket name TCS","level":"error"}
+{"message":"[tradesCntrl]: No Trade History of Buy type for TCS","level":"error"}
+{"message":"[usersSvc ]:  The Return value is -20397","level":"info"}
+{"message":"[ordersSvc ]: portfolio details { _id: 5dbd49dfdaf390dcdad9f619,\n  tickName: 'TCS',\n  avgBuyPrice: 1833.45,\n  quantity: 10 }","level":"info"}
+{"message":"[ordersSvc ]:  No Trades History of Sell type","level":"error"}
+{"message":"[tradesCntrl]: No Trades History of Sell type","level":"error"}
+{"message":"[ordersSvc ]:  No Trades History of Buy type","level":"error"}
+{"message":"[tradesCntrl]: No Trades History of Buy type","level":"error"}
+{"message":"[ordersSvc ]:  Trade history  of sell type","level":"info"}
+{"message":"[ordersSvc ]:  Trade history  of buy type","level":"info"}
+{"message":"[ordersSvc ]: Trade [object Object] Trade Successfully Created @@@","level":"info"}
+{"message":"[ordersSvc ]: Trade [object Object],[object Object] Trade Successfully Created @@@","level":"info"}
+{"message":"Get the User @@@","level":"info"}
+{"message":"[ordersSvc ]: trade details [object Object]","level":"info"}
+{"message":"[ordersSvc ]: trade details [object Object]","level":"info"}
+{"message":"[ordersSvc ]:  Trade history [object Object] of sell type","level":"info"}
+{"message":"[ordersSvc ]:  Trade history [object Object] of buy type","level":"info"}
+{"message":"[usersSvc ]: User Piyush Kumar LogOut Current Session Successfully @@@","level":"info"}
+{"message":"[usersSvc ]: User Rishu Kumar login Successfully @@@","level":"info"}
+{"message":"User logined Succefully @@@","level":"info"}
+{"message":"Get the User @@@","level":"info"}
+{"message":"[ordersSvc ]:  No Trade History for given Ticket name TCS","level":"error"}
+{"message":"[tradesCntrl]: No Trade History for TCS","level":"error"}
+{"message":"[ordersSvc ]:  No Trade History of Sell type for given Ticket name TCS","level":"error"}
+{"message":"[tradesCntrl]: No Trade History of Sell type for TCS","level":"error"}
+{"message":"[ordersSvc ]:  No Trade History of Buy type for given Ticket name TCS","level":"error"}
+{"message":"[tradesCntrl]: No Trade History of Buy type for TCS","level":"error"}
+{"message":"[usersSvc ]:  The Return value is -9098.5","level":"info"}
+{"message":"[ordersSvc ]: portfolio details { _id: 5dbd4a36daf390dcdad9f61e,\n  tickName: 'TCS',\n  avgBuyPrice: 1733.45,\n  quantity: 5 }","level":"info"}
+{"message":"[ordersSvc ]:  No Trades History of Sell type","level":"error"}
+{"message":"[tradesCntrl]: No Trades History of Sell type","level":"error"}
+{"message":"[ordersSvc ]:  Trade history  of sell type","level":"info"}
+{"message":"[ordersSvc ]:  Trade history  of buy type","level":"info"}
+{"message":"[ordersSvc ]: Trade [object Object] Trade Successfully Created @@@","level":"info"}
+{"message":"Get the User @@@","level":"info"}
+{"message":"[ordersSvc ]: Trade [object Object],[object Object] Trade Successfully Created @@@","level":"info"}
+{"message":"[ordersSvc ]: Mentioned trade doesn't existed with ID TRD2","level":"error"}
+{"message":"[tradesCntrl]: Mentioned trade doesn't existed","level":"error"}
+{"message":"[ordersSvc ]: Trade [object Object],[object Object] Trade Successfully Created and Placed @@@","level":"info"}
+{"message":"Get the User @@@","level":"info"}
+{"message":"[ordersSvc ]: trade details [object Object]","level":"info"}
+{"message":"[ordersSvc ]: trade details [object Object]","level":"info"}
+{"message":"[ordersSvc ]: Mentioned trade doesn't existed with ID TRD5","level":"error"}
+{"message":"[tradesCntrl]: Mentioned trade doesn't existed","level":"error"}
+{"message":"[ordersSvc ]:  Trade history [object Object]","level":"info"}
+{"message":"[ordersSvc ]:  No Trade History of Sell type for given Ticket name TCS","level":"error"}
+{"message":"[tradesCntrl]: No Trade History of Sell type for TCS","level":"error"}
+{"message":"[ordersSvc ]:  Trade history [object Object] of buy type","level":"info"}
+{"message":"[ordersSvc ]:  No Trade History for given Trade Id TRD1","level":"error"}
+{"message":"[tradesCntrl]: No Trade History with Trade Id TRD1","level":"error"}
+{"message":"[ordersSvc ]:  No Trade History for given Trade Id TRD3","level":"error"}
+{"message":"[tradesCntrl]: No Trade History with Trade Id TRD3","level":"error"}
+{"message":"[ordersSvc ]:  Trade history with trade id TRD5 [object Object]","level":"info"}
+{"message":"[usersSvc ]:  The Return value is -9998.5","level":"info"}
+{"message":"[ordersSvc ]: portfolio details { _id: 5dbd4a36daf390dcdad9f61e,\n  tickName: 'TCS',\n  avgBuyPrice: 1611.2083333333333,\n  quantity: 6 }","level":"info"}
+{"message":"[ordersSvc ]:  No Trades History of Sell type","level":"error"}
+{"message":"[tradesCntrl]: No Trades History of Sell type","level":"error"}
+{"message":"[ordersSvc ]:  Trades history [object Object] of Buy type","level":"info"}
+{"message":"[ordersSvc ]:  Trade history  of sell type","level":"info"}
+{"message":"[ordersSvc ]:  Trade history [object Object],[object Object] of buy type","level":"info"}
+{"message":"[usersSvc ]: User Rishu Kumar LogOut Current Session Successfully @@@","level":"info"}
+{"message":"[usersSvc ]: User Piyush Kumar login Successfully @@@","level":"info"}
+{"message":"User logined Succefully @@@","level":"info"}
+{"message":"Get the User @@@","level":"info"}
+{"message":"[ordersSvc ]:  Trade history [object Object]","level":"info"}
+{"message":"[ordersSvc ]:  Trade history [object Object] of sell type","level":"info"}
+{"message":"[ordersSvc ]:  Trade history with trade id TRD1 [object Object]","level":"info"}
+{"message":"[usersSvc ]:  The Return value is -19497","level":"info"}
+{"message":"[ordersSvc ]: portfolio details { _id: 5dbd49dfdaf390dcdad9f619,\n  tickName: 'TCS',\n  avgBuyPrice: 1926.0555555555557,\n  quantity: 9 }","level":"info"}
+{"message":"[ordersSvc ]:  Trades history [object Object] of Sell type","level":"info"}
+{"message":"[ordersSvc ]:  Trade history  of sell type","level":"info"}
+{"message":"[ordersSvc ]:  Trade history [object Object] of buy type","level":"info"}
+{"message":"[ordersSvc ]: Trade [object Object],[object Object] Trade Successfully Created @@@","level":"info"}
+{"message":"[usersSvc ]: User Piyush Kumar LogOut Current Session Successfully @@@","level":"info"}
+{"message":"[usersSvc ]: User Rishu Kumar login Successfully @@@","level":"info"}
+{"message":"User logined Succefully @@@","level":"info"}
+{"message":"[usersSvc ]: User Rishu Kumar login Successfully @@@","level":"info"}
+{"message":"User logined Succefully @@@","level":"info"}
+{"message":"[ordersSvc ]: Trade [object Object],[object Object],[object Object] Trade Successfully Created @@@","level":"info"}
+{"message":"[ordersSvc ]: Trade [object Object],[object Object],[object Object],[object Object] Trade Successfully Created @@@","level":"info"}
+{"message":"[ordersSvc ]:  Trade history  of sell type","level":"info"}
+{"message":"[ordersSvc ]:  Trade history [object Object],[object Object],[object Object],[object Object] of buy type","level":"info"}
+{"message":"[usersSvc ]: User Rishu Kumar LogOut Current Session Successfully @@@","level":"info"}
+{"message":"[usersSvc ]: User Piyush Kumar login Successfully @@@","level":"info"}
+{"message":"User logined Succefully @@@","level":"info"}
+{"message":"[usersSvc ]: User Piyush Kumar LogOut Current Session Successfully @@@","level":"info"}
+{"message":"[usersSvc ]: User Rishu Kumar login Successfully @@@","level":"info"}
+{"message":"User logined Succefully @@@","level":"info"}
+{"message":"[ordersSvc ]: Trade [object Object],[object Object],[object Object],[object Object] Trade Successfully Updated and Placed @@@","level":"info"}
+{"message":"Get the User @@@","level":"info"}
+{"message":"[ordersSvc ]:  Trade history [object Object]","level":"info"}
+{"message":"[usersSvc ]: User Rishu Kumar LogOut Current Session Successfully @@@","level":"info"}
+{"message":"[usersSvc ]: User Piyush Kumar login Successfully @@@","level":"info"}
+{"message":"User logined Succefully @@@","level":"info"}
+{"message":"Get the User @@@","level":"info"}
+{"message":"[usersSvc ]:  The Return value is -19097","level":"info"}
+{"message":"[ordersSvc ]: Trade [object Object] Trade Successfully Created and Placed @@@","level":"info"}
+{"message":"[usersSvc ]:  The Return value is -18897","level":"info"}
+{"message":"[usersSvc ]: User Piyush Kumar LogOut Current Session Successfully @@@","level":"info"}
+{"message":"[usersSvc ]: User Rishu Kumar login Successfully @@@","level":"info"}
+{"message":"User logined Succefully @@@","level":"info"}
+{"message":"Get the User @@@","level":"info"}
+{"message":"[ordersSvc ]:  Trade Successfully Deleted","level":"info"}
+{"message":"[usersSvc ]: User Rishu Kumar User Successfully Updated @@@","level":"info"}
+{"message":"Get the User @@@","level":"info"}
+{"message":"[usersSvc ]: User Rishu Kumar Password Successfully Updated @@@","level":"info"}
+{"message":"[usersSvc ]: User Rishu Kumar LogOut Current Session Successfully @@@","level":"info"}
+{"message":"[usersSvc ]: Error: Authentication failed","level":"error"}
+{"message":"[usersCntrl]: Authentication failed","level":"error"}
+{"message":"[usersSvc ]: User Rishu Kumar login Successfully @@@","level":"info"}
+{"message":"User logined Succefully @@@","level":"info"}
+{"message":"[usersSvc ]: User Rishu Kumar Password Successfully Updated @@@","level":"info"}
+{"message":"[usersSvc ]: User Rishu Kumar LogOut All Sessions Successfully @@@","level":"info"}
+{"message":"[usersSvc ]: User Created Successfully @@@","level":"info"}
+{"message":"[usersSvc ]: Error: Authentication failed","level":"error"}
+{"message":"[usersCntrl]: Authentication failed","level":"error"}
+{"message":"[usersSvc ]: User Ayush Kumar login Successfully @@@","level":"info"}
+{"message":"User logined Succefully @@@","level":"info"}
+{"message":"[usersSvc ]: User Ayush Kumar User Successfully deleted @@@","level":"info"}
+{"message":"[usersSvc ]: Error: Authentication failed","level":"error"}
+{"message":"[usersCntrl]: Authentication failed","level":"error"}
+{"message":"[usersSvc ]: User Rishu Kumar login Successfully @@@","level":"info"}
+{"message":"User logined Succefully @@@","level":"info"}
+{"message":"[Server]:  api server started on: 4000","level":"info"}
+{"message":"[Server]: Connection with MongoDB installed","level":"info"}
+{"message":"[Server]:  api server started on: 4000","level":"info"}
+{"message":"[Server]: Connection with MongoDB installed","level":"info"}
+{"message":"[Server]:  api server started on: 4000","level":"info"}
+{"message":"[Server]: Connection with MongoDB installed","level":"info"}
+{"message":"[Server]:  api server started on: 4000","level":"info"}
+{"message":"[Server]: Connection with MongoDB installed","level":"info"}
+{"message":"[Server]:  api server started on: 4000","level":"info"}
+{"message":"[Server]: Connection with MongoDB installed","level":"info"}
+{"message":"[usersSvc ]: User Rishu Kumar login Successfully @@@","level":"info"}
+{"message":"User logined Succefully @@@","level":"info"}
+{"message":"[usersSvc ]: User Created Successfully @@@","level":"info"}
+{"message":"[usersSvc ]: User Ayush Kumar login Successfully @@@","level":"info"}
+{"message":"User logined Succefully @@@","level":"info"}
+{"message":"[ordersSvc ]: Trade [object Object] Trade Successfully Created @@@","level":"info"}
+{"message":"[usersSvc ]: User Ayush Kumar LogOut Current Session Successfully @@@","level":"info"}
+{"message":"[usersSvc ]: User Rishu Kumar login Successfully @@@","level":"info"}
+{"message":"User logined Succefully @@@","level":"info"}
+{"message":"[ordersSvc ]: Trade [object Object] Trade Successfully Created and Placed @@@","level":"info"}
+{"message":"[ordersSvc ]:  Cann't Create Sell Trade for non-existed Ticket P in portfolio","level":"error"}
+{"message":"[tradesCntrl]: Cann't Create Sell Trade for non-existed Ticket P in portfolio","level":"error"}
+{"message":"[ordersSvc ]: Trade [object Object],[object Object] Trade Successfully Created @@@","level":"info"}
+{"message":"[usersSvc ]: User Rishu Kumar LogOut Current Session Successfully @@@","level":"info"}
+{"message":"[usersSvc ]: User Created Successfully @@@","level":"info"}
+{"message":"[usersSvc ]: User Ashok Kumar login Successfully @@@","level":"info"}
+{"message":"User logined Succefully @@@","level":"info"}
+{"message":"[ordersSvc ]: Trade  Trade Successfully Created and Placed @@@","level":"info"}
+{"message":"[usersSvc ]: User Ashok Kumar LogOut Current Session Successfully @@@","level":"info"}
+{"message":"[usersSvc ]: User Rishu Kumar login Successfully @@@","level":"info"}
+{"message":"User logined Succefully @@@","level":"info"}
+{"message":"[ordersSvc ]: Trade [object Object],[object Object] Trade Successfully Created @@@","level":"info"}
+{"message":"[usersSvc ]: User Rishu Kumar LogOut Current Session Successfully @@@","level":"info"}
+{"message":"[usersSvc ]: User Ayush Kumar login Successfully @@@","level":"info"}
+{"message":"User logined Succefully @@@","level":"info"}
+{"message":"[ordersSvc ]: Trade [object Object] Trade Successfully Created @@@","level":"info"}
+{"message":"[usersSvc ]: User Ayush Kumar LogOut Current Session Successfully @@@","level":"info"}
+{"message":"[usersSvc ]: User Rishu Kumar login Successfully @@@","level":"info"}
+{"message":"User logined Succefully @@@","level":"info"}
+{"message":"[ordersSvc ]: Trade [object Object],[object Object] Trade Successfully Created and Placed @@@","level":"info"}
+{"message":"[Server]:  api server started on: 4000","level":"info"}
+{"message":"[Server]: Connection with MongoDB installed","level":"info"}
+{"message":"[Server]:  api server started on: 4000","level":"info"}
+{"message":"[Server]: Connection with MongoDB installed","level":"info"}
+{"message":"[Server]:  api server started on: 4000","level":"info"}
+{"message":"[Server]: Connection with MongoDB installed","level":"info"}
+{"message":"[Server]:  api server started on: 4000","level":"info"}
+{"message":"[Server]: Connection with MongoDB installed","level":"info"}
+{"message":"[Server]:  api server started on: 4000","level":"info"}
+{"message":"[Server]: Connection with MongoDB installed","level":"info"}
+{"message":"[Server]:  api server started on: 4000","level":"info"}
+{"message":"[Server]: Connection with MongoDB installed","level":"info"}
+{"message":"[Server]:  api server started on: 4000","level":"info"}
+{"message":"[Server]: Connection with MongoDB installed","level":"info"}
+{"message":"[Server]:  api server started on: 4000","level":"info"}
+{"message":"[Server]: Connection with MongoDB installed","level":"info"}
+{"message":"[Server]:  api server started on: 4000","level":"info"}
+{"message":"[Server]: Connection with MongoDB installed","level":"info"}
+{"message":"[Server]:  api server started on: 4000","level":"info"}
+{"message":"[Server]: Connection with MongoDB installed","level":"info"}
+{"message":"[Server]:  api server started on: 4000","level":"info"}
+{"message":"[Server]: Connection with MongoDB installed","level":"info"}
+{"message":"[Server]:  api server started on: 4000","level":"info"}
+{"message":"[Server]: Connection with MongoDB installed","level":"info"}
+{"message":"[Server]:  api server started on: 4000","level":"info"}
+{"message":"[Server]: Connection with MongoDB installed","level":"info"}
+{"message":"[Server]:  api server started on: 4000","level":"info"}
+{"message":"[Server]: Connection with MongoDB installed","level":"info"}
+{"message":"[Server]:  api server started on: 4000","level":"info"}
+{"message":"[Server]: Connection with MongoDB installed","level":"info"}
+{"message":"[Server]:  api server started on: 4000","level":"info"}
+{"message":"[Server]: Connection with MongoDB installed","level":"info"}
+{"message":"[authMiddleware ]: TokenExpiredError: jwt expired","level":"error"}
+{"message":"[usersSvc ]: User Rishu Kumar login Successfully @@@","level":"info"}
+{"message":"User logined Succefully @@@","level":"info"}
+{"message":"[Server]:  api server started on: 4000","level":"info"}
+{"message":"[Server]: Connection with MongoDB installed","level":"info"}
+{"message":"[Server]:  api server started on: 4000","level":"info"}
+{"message":"[Server]: Connection with MongoDB installed","level":"info"}
+{"message":"[Server]:  api server started on: 4000","level":"info"}
+{"message":"[Server]: Connection with MongoDB installed","level":"info"}
+{"message":"[Server]:  api server started on: 4000","level":"info"}
+{"message":"[Server]: Connection with MongoDB installed","level":"info"}
+{"message":"[Server]:  api server started on: 4000","level":"info"}
+{"message":"[Server]: Connection with MongoDB installed","level":"info"}
+{"message":"[Server]:  api server started on: 4000","level":"info"}
+{"message":"[Server]: Connection with MongoDB installed","level":"info"}
+{"message":"[Server]:  api server started on: 4000","level":"info"}
+{"message":"[Server]: Connection with MongoDB installed","level":"info"}
+{"message":"[usersSvc ]: MongoError: E11000 duplicate key error collection: stock_portfolio_tracking.users index: email_1 dup key: { : \"ashok@gmail.com\" }","level":"error"}
+{"message":"[usersCntrl]: User with email address exists","level":"error"}
+{"message":"[usersSvc ]: User Rishu Kumar login Successfully @@@","level":"info"}
+{"message":"User logined Succefully @@@","level":"info"}
+{"message":"[Server]:  api server started on: 4000","level":"info"}
+{"message":"[Server]: Connection with MongoDB installed","level":"info"}
