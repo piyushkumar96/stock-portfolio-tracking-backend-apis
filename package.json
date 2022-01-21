@@ -23,7 +23,7 @@
     "express": "^4.17.1",
     "fs": "0.0.1-security",
     "jsonwebtoken": "^8.5.1",
-    "log4js": "^5.2.2",
+    "log4js": "^6.4.0",
     "mongoose": "^5.6.11",
     "uuid": "^3.3.3",
     "validator": "^11.1.0",
